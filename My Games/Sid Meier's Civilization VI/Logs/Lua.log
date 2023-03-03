@@ -1,0 +1,60 @@
+DebugHotloadCache: GameDebug initialized!
+Test: Test.LUA loaded!
+JoiningRoom: OnFinishedGameplayContentConfigure() g_waitingForContentConfigure=true
+Lobby: OnChangeMPLobbyMode: STANDARD_LAN
+JoiningRoom: OnFinishedGameplayContentConfigure() g_waitingForContentConfigure=true
+JoiningRoom: OnJoinGameComplete()
+JoiningRoom: CheckTransitionToStagingRoom()
+JoiningRoom: OnFinishedGameplayContentConfigure() g_waitingForContentConfigure=true
+JoiningRoom: CheckTransitionToStagingRoom()
+HostGame: Building Game Setup
+HostGame: Hiding Game Setup
+StagingRoom: Building Game Setup
+LoadScreen: true
+LoadScreen: false
+LoadScreen: true
+WorldCongress: Initializing World Congress Lua
+MapLabelManager: ĐẠI DƯƠNG IAPETUS (0, 0)
+MapSearchPanel: Created SearchContext 'MapSearch_Primary'
+MapSearchPanel: Created SearchContext 'MapSearch_Suggestions'
+MapPinPopup: initializing MapTacks.IconOptions(2)
+MapPinPopup: Selected 14 columns
+InGame: Loading InGame UI - ../../../DLC/Expansion2/UI/Additions/DedicationPopup
+InGame: Loading InGame UI - ../../../DLC/Expansion2/UI/Additions/DisloyalCityChooser
+InGame: Loading InGame UI - ../../../DLC/Expansion2/UI/Additions/EraProgressPanel
+InGame: Loading InGame UI - ../../../DLC/Expansion2/UI/Additions/EraReviewPopup
+InGame: Loading InGame UI - ../../../DLC/Expansion2/UI/Additions/ExpansionIntro
+InGame: Loading InGame UI - ../../../DLC/Expansion2/UI/Additions/GovernorAssignmentChooser
+InGame: Loading InGame UI - ../../../DLC/Expansion2/UI/Additions/GovernorPanel
+InGame: Loading InGame UI - ../../../DLC/Expansion2/UI/Additions/HistoricMoments
+InGame: Loading InGame UI - ../../../DLC/Expansion2/UI/Additions/WorldCrisisPopup
+TutorialUIRoot: Tutorial: Firaxis in game tutorial prompts.
+TutorialUIRoot: Version: 1
+TutorialUIRoot: Loading bank of items for tutorial scenario: 'BASE'
+MapLabelManager: ĐẠI DƯƠNG IAPETUS (-1910.0251464844, 483.69744873047)
+MapLabelManager: ĐẠI DƯƠNG IAPETUS (407.35430908203, 1140.5437011719)
+MapLabelManager: ĐẠI DƯƠNG IAPETUS (-2001.4887695313, 977.8173828125)
+MapLabelManager: ĐẠI DƯƠNG IAPETUS (2015.0932617188, 376.49102783203)
+MapLabelManager: ĐẠI DƯƠNG IAPETUS (2177.0966796875, -382.8642578125)
+MapLabelManager: ĐẠI DƯƠNG IAPETUS (1254.0711669922, 993.87213134766)
+MapLabelManager: ĐẠI DƯƠNG IAPETUS (1272.7220458984, -1112.5871582031)
+MapLabelManager: ĐẠI DƯƠNG IAPETUS (1372.2729492188, 434.81695556641)
+MapLabelManager: ĐẠI DƯƠNG IAPETUS (2025.5090332031, 963.15368652344)
+MapLabelManager: ĐẠI DƯƠNG IAPETUS (1490.5714111328, -75.796493530273)
+MapLabelManager: ĐẠI DƯƠNG IAPETUS (-2214.3381347656, 17.938358306885)
+MapLabelManager: ĐẠI DƯƠNG IAPETUS (1597.7393798828, -620.93627929688)
+MapLabelManager: ĐẠI DƯƠNG IAPETUS (-2184.1669921875, -987.68054199219)
+MapLabelManager: ĐẠI DƯƠNG IAPETUS (1965.2407226563, -1029.9025878906)
+LoadScreen: OnLoadGameViewStateDone
+PlotInfo: PlotInfo::OnCitySelectionChanged	2	65536	49	33	0	true	false
+PlotInfo: PlotInfo::OnCitySelectionChanged	2	65536	0	0	0	false	false
+PlotInfo: PlotInfo::OnCitySelectionChanged	2	65536	49	33	0	true	false
+PlotInfo: PlotInfo::OnCitySelectionChanged	2	65536	0	0	0	false	false
+PlotInfo: PlotInfo::OnCitySelectionChanged	2	65536	49	33	0	true	false
+PlotInfo: PlotInfo::OnCitySelectionChanged	2	65536	0	0	0	false	false
+PlotInfo: PlotInfo::OnCitySelectionChanged	2	65536	49	33	0	true	false
+PlotInfo: PlotInfo::OnCitySelectionChanged	2	65536	0	0	0	false	false
+PlotInfo: PlotInfo::OnCitySelectionChanged	2	65536	49	33	0	true	false
+PlotInfo: PlotInfo::OnCitySelectionChanged	2	65536	0	0	0	false	false
+InGame: Request to BulkHide( true, FullscreenMap ), Show on 0 = 1
+InGame: Request to BulkHide( false, FullscreenMap ), Show on 0 = 0

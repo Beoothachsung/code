@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PremiereData Version="3">
+	<recentcontainers Version="2">
+		<containercount>1</containercount>
+		<container.0 Version="1">
+			<containeritemcount>3</containeritemcount>
+			<containeritem.0 Version="1">
+				<containerpath>/Y/Y?/YG:/YMy Drive</containerpath>
+				<containername>My Drive</containername>
+			</containeritem.0>
+			<containeritem.2 Version="1">
+				<containerpath>volumes:</containerpath>
+				<containername>Local Drives</containername>
+			</containeritem.2>
+			<containeritem.1 Version="1">
+				<containerpath>/Y/Y?/YG:/Y</containerpath>
+				<containername>G: (Google Drive)</containername>
+			</containeritem.1>
+		</container.0>
+	</recentcontainers>
+</PremiereData>

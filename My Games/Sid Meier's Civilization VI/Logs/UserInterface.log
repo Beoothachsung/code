@@ -1,0 +1,1182 @@
+ForgeUI started up!
+START ContextBase::Initialize() id: ''		parent: 'NULL'		Context: 'NULL'
+END   ContextBase::Initialize() id: 'TutorialOverlay'
+START ContextBase::Initialize() id: ''		parent: 'NULL'		Context: 'NULL'
+END   ContextBase::Initialize() id: 'ToolTips'
+START ContextBase::Initialize() id: ''		parent: 'NULL'		Context: 'NULL'
+END   ContextBase::Initialize() id: 'DebugPanel'
+START ContextBase::Initialize() id: ''		parent: 'NULL'		Context: 'NULL'
+END   ContextBase::Initialize() id: 'IntroScreen'
+START ContextBase::Initialize() id: ''		parent: 'NULL'		Context: 'NULL'
+START  LuaContext::Initialize() id: 'DebugHotloadCache'		parent: 'DebugContext'		Context: 'DebugContext'
+DebugHotloadCache: register time: 0.001116
+DebugHotloadCache: ControlBase::Initialize time: 0.000001
+LOADING ../../../Base/Assets/UI/DebugHotloadCache.lua	Load time: 0.001334
+END    LuaContext::Initialize() id: 'DebugHotloadCache'
+END   ContextBase::Initialize() id: 'DebugContext'
+START ContextBase::Initialize() id: ''		parent: 'NULL'		Context: 'NULL'
+END   ContextBase::Initialize() id: 'DebugViewer'
+START ContextBase::Initialize() id: ''		parent: 'NULL'		Context: 'NULL'
+END   ContextBase::Initialize() id: 'SubtitleContext'
+START ContextBase::Initialize() id: ''		parent: 'NULL'		Context: 'NULL'
+START  LuaContext::Initialize() id: 'Intro'		parent: 'StartupScreen'		Context: 'StartupScreen'
+IntroScreen: register time: 0.000447
+IntroScreen: ControlBase::Initialize time: 0.002788
+LOADING ../../../Base/Assets/UI/FrontEnd/IntroScreen.lua	Load time: 0.002893
+END    LuaContext::Initialize() id: 'Intro'
+END   ContextBase::Initialize() id: 'StartupScreen'
+START  LuaContext::Initialize() id: ''		parent: 'NULL'		Context: 'NULL'
+FrontEnd: register time: 0.000325
+START  LuaContext::Initialize() id: 'MainMenu'		parent: 'FrontEndContainer'		Context: 'FrontEnd'
+MainMenu: register time: 0.000431
+START  LuaContext::Initialize() id: 'Options'		parent: 'MainMenu'		Context: 'MainMenu'
+Options: register time: 0.000368
+Options: ControlBase::Initialize time: 0.006836
+LOADING ../../../Base/Assets/UI/Options.lua	Load time: 0.036975
+END    LuaContext::Initialize() id: 'Options'
+START  LuaContext::Initialize() id: 'ModsContext'		parent: 'MainMenu'		Context: 'MainMenu'
+START  LuaContext::Initialize() id: 'AdvancedSetup'		parent: 'MainMenu'		Context: 'MainMenu'
+START  LuaContext::Initialize() id: 'ScenarioSetup'		parent: 'MainMenu'		Context: 'MainMenu'
+START  LuaContext::Initialize() id: 'CreditsScreen'		parent: 'MainMenu'		Context: 'MainMenu'
+CreditsScreen: register time: 0.000430
+CreditsScreen: ControlBase::Initialize time: 0.000101
+LOADING ../../../Base/Assets/UI/FrontEnd/CreditsScreen.lua	Load time: 0.001251
+END    LuaContext::Initialize() id: 'CreditsScreen'
+START  LuaContext::Initialize() id: 'My2K'		parent: 'MainMenu'		Context: 'MainMenu'
+My2K: register time: 0.000379
+My2K: ControlBase::Initialize time: 0.000001
+LOADING ../../../Base/Assets/UI/FiraxisLive/My2K.lua	Load time: 0.003498
+END    LuaContext::Initialize() id: 'My2K'
+START  LuaContext::Initialize() id: 'WorldBuilder'		parent: 'MainMenu'		Context: 'MainMenu'
+START  LuaContext::Initialize() id: 'HallofFame'		parent: 'MainMenu'		Context: 'MainMenu'
+START  LuaContext::Initialize() id: 'TutorialSetup'		parent: 'MainMenu'		Context: 'MainMenu'
+START  LuaContext::Initialize() id: 'Lobby'		parent: 'MainMenu'		Context: 'MainMenu'
+Lobby: register time: 0.001481
+START  LuaContext::Initialize() id: 'LoadGameMenu'		parent: 'Lobby'		Context: 'Lobby'
+LoadGameMenu: register time: 0.001568
+LoadGameMenu: ControlBase::Initialize time: 0.000959
+LOADING ../../../Base/Assets/UI/FrontEnd/LoadGameMenu.lua	Load time: 0.014983
+END    LuaContext::Initialize() id: 'LoadGameMenu'
+START  LuaContext::Initialize() id: 'PBCNotifyRemind'		parent: 'Lobby'		Context: 'Lobby'
+PBCNotifyRemind: register time: 0.001225
+PBCNotifyRemind: ControlBase::Initialize time: 0.001502
+LOADING ../../../Base/Assets/UI/FrontEnd/Multiplayer/PBCNotifyRemind.lua	Load time: 0.000650
+END    LuaContext::Initialize() id: 'PBCNotifyRemind'
+Lobby: ControlBase::Initialize time: 0.031789
+LOADING ../../../Base/Assets/UI/FrontEnd/Multiplayer/Lobby.lua	Load time: 0.013331
+END    LuaContext::Initialize() id: 'Lobby'
+START  LuaContext::Initialize() id: 'HostGame'		parent: 'MainMenu'		Context: 'MainMenu'
+HostGame: register time: 0.000631
+START  LuaContext::Initialize() id: 'ModsMenu'		parent: 'HostGame'		Context: 'HostGame'
+Mods: register time: 0.000610
+Mods: ControlBase::Initialize time: 0.001346
+LOADING ../../../Base/Assets/UI/FrontEnd/Mods.lua	Load time: 0.007484
+END    LuaContext::Initialize() id: 'ModsMenu'
+START  LuaContext::Initialize() id: 'LoadGameMenu'		parent: 'HostGame'		Context: 'HostGame'
+LoadGameMenu: register time: 0.000904
+LoadGameMenu: ControlBase::Initialize time: 0.000367
+LOADING ../../../Base/Assets/UI/FrontEnd/LoadGameMenu.lua	Load time: 0.010572
+END    LuaContext::Initialize() id: 'LoadGameMenu'
+START  LuaContext::Initialize() id: 'SaveGameMenu'		parent: 'HostGame'		Context: 'HostGame'
+SaveGameMenu: register time: 0.000542
+SaveGameMenu: ControlBase::Initialize time: 0.000647
+LOADING ../../../Base/Assets/UI/Menus/SaveGameMenu.lua	Load time: 0.004817
+END    LuaContext::Initialize() id: 'SaveGameMenu'
+START  LuaContext::Initialize() id: 'MultiSelectWindow'		parent: 'HostGame'		Context: 'HostGame'
+MultiSelectWindow: register time: 0.000422
+MultiSelectWindow: ControlBase::Initialize time: 0.000150
+LOADING ../../../Base/Assets/UI/FrontEnd/MultiSelectWindow.lua	Load time: 0.001110
+END    LuaContext::Initialize() id: 'MultiSelectWindow'
+START  LuaContext::Initialize() id: 'CityStatePicker'		parent: 'HostGame'		Context: 'HostGame'
+CityStatePicker: register time: 0.000421
+CityStatePicker: ControlBase::Initialize time: 0.000419
+LOADING ../../../Base/Assets/UI/FrontEnd/CityStatePicker.lua	Load time: 0.015307
+END    LuaContext::Initialize() id: 'CityStatePicker'
+HostGame: ControlBase::Initialize time: 0.058936
+LOADING ../../../Base/Assets/UI/FrontEnd/Multiplayer/HostGame.lua	Load time: 0.019124
+END    LuaContext::Initialize() id: 'HostGame'
+START  LuaContext::Initialize() id: 'StagingRoom'		parent: 'MainMenu'		Context: 'MainMenu'
+StagingRoom: register time: 0.000353
+START  LuaContext::Initialize() id: 'ConfirmKick'		parent: 'StagingRoom'		Context: 'StagingRoom'
+ConfirmKick: register time: 0.000588
+ConfirmKick: ControlBase::Initialize time: 0.000029
+LOADING ../../../Base/Assets/UI/FrontEnd/Multiplayer/ConfirmKick.lua	Load time: 0.002157
+END    LuaContext::Initialize() id: 'ConfirmKick'
+START  LuaContext::Initialize() id: 'EditHotseatPlayer'		parent: 'StagingRoom'		Context: 'StagingRoom'
+EditHotseatPlayer: register time: 0.000306
+EditHotseatPlayer: ControlBase::Initialize time: 0.000465
+LOADING ../../../Base/Assets/UI/FrontEnd/Multiplayer/EditHotseatPlayer.lua	Load time: 0.000833
+END    LuaContext::Initialize() id: 'EditHotseatPlayer'
+StagingRoom: ControlBase::Initialize time: 0.008363
+LOADING ../../../Base/Assets/UI/FrontEnd/Multiplayer/StagingRoom.lua	Load time: 0.027616
+END    LuaContext::Initialize() id: 'StagingRoom'
+START  LuaContext::Initialize() id: 'LoadGameMenu'		parent: 'MainMenu'		Context: 'MainMenu'
+LoadGameMenu: register time: 0.000327
+LoadGameMenu: ControlBase::Initialize time: 0.000373
+LOADING ../../../Base/Assets/UI/FrontEnd/LoadGameMenu.lua	Load time: 0.011330
+END    LuaContext::Initialize() id: 'LoadGameMenu'
+START  LuaContext::Initialize() id: 'SaveGameMenu'		parent: 'MainMenu'		Context: 'MainMenu'
+SaveGameMenu: register time: 0.001315
+SaveGameMenu: ControlBase::Initialize time: 0.000465
+LOADING ../../../Base/Assets/UI/Menus/SaveGameMenu.lua	Load time: 0.005495
+END    LuaContext::Initialize() id: 'SaveGameMenu'
+START  LuaContext::Initialize() id: 'FrontEndPopup'		parent: 'MainMenu'		Context: 'MainMenu'
+FrontEndPopup: register time: 0.000901
+FrontEndPopup: ControlBase::Initialize time: 0.000037
+LOADING ../../../Base/Assets/UI/FrontEnd/FrontEndPopup.lua	Load time: 0.002998
+END    LuaContext::Initialize() id: 'FrontEndPopup'
+START  LuaContext::Initialize() id: 'CivRoyaleIntro'		parent: 'MainMenu'		Context: 'MainMenu'
+CivRoyaleIntro: register time: 0.001154
+CivRoyaleIntro: ControlBase::Initialize time: 0.000074
+LOADING ../../../Base/Assets/UI/FrontEnd/Multiplayer/CivRoyaleIntro.lua	Load time: 0.001008
+END    LuaContext::Initialize() id: 'CivRoyaleIntro'
+START  LuaContext::Initialize() id: 'PiratesIntro'		parent: 'MainMenu'		Context: 'MainMenu'
+PiratesIntro: register time: 0.001215
+PiratesIntro: ControlBase::Initialize time: 0.000073
+LOADING ../../../Base/Assets/UI/FrontEnd/Multiplayer/PiratesIntro.lua	Load time: 0.000896
+END    LuaContext::Initialize() id: 'PiratesIntro'
+START  LuaContext::Initialize() id: 'CrossPlay'		parent: 'MainMenu'		Context: 'MainMenu'
+CrossPlayLogin: register time: 0.000688
+CrossPlayLogin: ControlBase::Initialize time: 0.000001
+LOADING ../../../Base/Assets/UI/FrontEnd/Multiplayer/CrossPlayLogin.lua	Load time: 0.001712
+END    LuaContext::Initialize() id: 'CrossPlay'
+MainMenu: ControlBase::Initialize time: 0.279089
+LOADING ../../../Base/Assets/UI/FrontEnd/MainMenu.lua	Load time: 0.032521
+END    LuaContext::Initialize() id: 'MainMenu'
+START  LuaContext::Initialize() id: 'StartingGame'		parent: 'FrontEndContainer'		Context: 'FrontEnd'
+StateTransition: register time: 0.000814
+StateTransition: ControlBase::Initialize time: 0.000177
+LOADING ../../../Base/Assets/UI/FrontEnd/StateTransition.lua	Load time: 0.000654
+END    LuaContext::Initialize() id: 'StartingGame'
+START  LuaContext::Initialize() id: 'JoiningRoom'		parent: 'FrontEndContainer'		Context: 'FrontEnd'
+JoiningRoom: register time: 0.000799
+JoiningRoom: ControlBase::Initialize time: 0.000114
+LOADING ../../../Base/Assets/UI/FrontEnd/Multiplayer/JoiningRoom.lua	Load time: 0.001025
+END    LuaContext::Initialize() id: 'JoiningRoom'
+START  LuaContext::Initialize() id: 'UserSetupWarning'		parent: 'FrontEndContainer'		Context: 'FrontEnd'
+UserSetupWarning: register time: 0.000472
+UserSetupWarning: ControlBase::Initialize time: 0.000026
+LOADING ../../../Base/Assets/UI/FrontEnd/UserSetupWarning.lua	Load time: 0.002429
+END    LuaContext::Initialize() id: 'UserSetupWarning'
+START  LuaContext::Initialize() id: 'SwitchLayoutPopup'		parent: 'FrontEndContainer'		Context: 'FrontEnd'
+SwitchLayoutPopup: register time: 0.000651
+SwitchLayoutPopup: ControlBase::Initialize time: 0.000097
+LOADING ../../../Base/Assets/UI/Popups/SwitchLayoutPopup.lua	Load time: 0.000780
+END    LuaContext::Initialize() id: 'SwitchLayoutPopup'
+START  LuaContext::Initialize() id: 'Test'		parent: ''		Context: 'FrontEnd'
+Test: register time: 0.000529
+Test: ControlBase::Initialize time: 0.000001
+LOADING ../../../Base/Assets/UI/Test.lua	Load time: 0.000517
+END    LuaContext::Initialize() id: 'Test'
+FrontEnd: ControlBase::Initialize time: 0.332763
+LOADING ../../../Base/Assets/UI/FrontEnd/FrontEnd.lua	Load time: 0.018378
+END    LuaContext::Initialize() id: 'FrontEnd'
+START  LuaContext::Initialize() id: ''		parent: 'FrontEnd'		Context: 'FrontEnd'
+InvitePopup: register time: 0.000723
+InvitePopup: ControlBase::Initialize time: 0.000034
+LOADING ../../../Base/Assets/UI/Popups/InvitePopup.lua	Load time: 0.003007
+END    LuaContext::Initialize() id: 'InvitePopup'
+START ContextBase::Initialize() id: ''		parent: 'NULL'		Context: 'NULL'
+END   ContextBase::Initialize() id: 'ToolTips'
+START  LuaContext::Initialize() id: ''		parent: 'NULL'		Context: 'NULL'
+LoadScreen: register time: 0.000339
+LoadScreen: ControlBase::Initialize time: 0.000677
+LOADING ../../../Base/Assets/UI/FrontEnd/LoadScreen.lua	Load time: 0.011397
+END    LuaContext::Initialize() id: 'LoadScreen'
+START ContextBase::Initialize() id: ''		parent: 'NULL'		Context: 'NULL'
+END   ContextBase::Initialize() id: 'ToolTips'
+START  LuaContext::Initialize() id: ''		parent: 'NULL'		Context: 'NULL'
+InGame: register time: 0.002648
+START  LuaContext::Initialize() id: 'WorldInput'		parent: 'Core'		Context: 'InGame'
+WorldInput: register time: 0.000853
+WorldInput: ControlBase::Initialize time: 0.000244
+LOADING ../../../DLC/Expansion2/UI/Replacements/WorldInput_Expansion2.lua	Load time: 0.063256
+END    LuaContext::Initialize() id: 'WorldInput'
+START  LuaContext::Initialize() id: 'StrategicView'		parent: 'Core'		Context: 'InGame'
+StrategicView: register time: 0.001068
+StrategicView: ControlBase::Initialize time: 0.000002
+LOADING ../../../Base/Assets/UI/StrategicView.lua	Load time: 0.003538
+END    LuaContext::Initialize() id: 'StrategicView'
+START  LuaContext::Initialize() id: 'ARXManager'		parent: 'Core'		Context: 'InGame'
+ARXManager: register time: 0.000796
+ARXManager: ControlBase::Initialize time: 0.000001
+LOADING ../../../DLC/Expansion2/UI/Replacements/ARXManager_Expansion2.lua	Load time: 0.017217
+END    LuaContext::Initialize() id: 'ARXManager'
+START  LuaContext::Initialize() id: 'MapLabelManager'		parent: 'WorldViewControls'		Context: 'InGame'
+MapLabelManager: register time: 0.000796
+MapLabelManager: ControlBase::Initialize time: 0.000001
+LOADING ../../../DLC/Expansion2/UI/Additions/MapLabelManager.lua	Load time: 0.061312
+END    LuaContext::Initialize() id: 'MapLabelManager'
+START  LuaContext::Initialize() id: 'WorldViewIconsManager'		parent: 'WorldViewControls'		Context: 'InGame'
+WorldViewIconsManager: register time: 0.001348
+WorldViewIconsManager: ControlBase::Initialize time: 0.000002
+LOADING ../../../Base/Assets/UI/WorldViewIconsManager.lua	Load time: 0.007480
+END    LuaContext::Initialize() id: 'WorldViewIconsManager'
+START  LuaContext::Initialize() id: 'DistrictPlotIconManager'		parent: 'WorldViewControls'		Context: 'InGame'
+DistrictPlotIconManager: register time: 0.001318
+DistrictPlotIconManager: ControlBase::Initialize time: 0.000002
+LOADING ../../../DLC/KublaiKhan_Vietnam/UI/Replacements/DistrictPlotIconManager_KublaiKhan_Vietnam.lua	Load time: 0.022558
+END    LuaContext::Initialize() id: 'DistrictPlotIconManager'
+START  LuaContext::Initialize() id: 'SettlerInfluenceIconManager'		parent: 'WorldViewControls'		Context: 'InGame'
+SettlerInfluenceIconManager: register time: 0.001278
+SettlerInfluenceIconManager: ControlBase::Initialize time: 0.000002
+LOADING ../../../DLC/Expansion2/UI/Additions/SettlerInfluenceIconManager.lua	Load time: 0.006127
+END    LuaContext::Initialize() id: 'SettlerInfluenceIconManager'
+START  LuaContext::Initialize() id: 'PlotInfo'		parent: 'WorldViewControls'		Context: 'InGame'
+PlotInfo: register time: 0.001022
+PlotInfo: ControlBase::Initialize time: 0.000002
+LOADING ../../../Base/Assets/UI/WorldView/PlotInfo.lua	Load time: 0.015579
+END    LuaContext::Initialize() id: 'PlotInfo'
+START  LuaContext::Initialize() id: 'CityBannerManager'		parent: 'BannerAndFlags'		Context: 'InGame'
+CityBannerManager: register time: 0.000767
+CityBannerManager: ControlBase::Initialize time: 0.000002
+LOADING ../../../DLC/Expansion2/UI/CityBanners/CityBannerManager.lua	Load time: 0.033506
+END    LuaContext::Initialize() id: 'CityBannerManager'
+START  LuaContext::Initialize() id: 'UnitFlagManager'		parent: 'BannerAndFlags'		Context: 'InGame'
+UnitFlagManager: register time: 0.000892
+UnitFlagManager: ControlBase::Initialize time: 0.000002
+LOADING ../../../Base/Assets/UI/UnitFlagManager.lua	Load time: 0.011129
+END    LuaContext::Initialize() id: 'UnitFlagManager'
+START  LuaContext::Initialize() id: 'TourismBannerManager'		parent: 'WorldViewControls'		Context: 'InGame'
+TourismBannerManager: register time: 0.002103
+TourismBannerManager: ControlBase::Initialize time: 0.000002
+LOADING ../../../Base/Assets/UI/WorldView/TourismBannerManager.lua	Load time: 0.007835
+END    LuaContext::Initialize() id: 'TourismBannerManager'
+START  LuaContext::Initialize() id: 'MapPinManager'		parent: 'WorldViewControls'		Context: 'InGame'
+MapPinManager: register time: 0.002842
+MapPinManager: ControlBase::Initialize time: 0.000002
+LOADING ../../../Base/Assets/UI/MapPinManager.lua	Load time: 0.014668
+END    LuaContext::Initialize() id: 'MapPinManager'
+START  LuaContext::Initialize() id: 'SelectedUnit'		parent: 'WorldViewControls'		Context: 'InGame'
+SelectedUnit: register time: 0.002731
+SelectedUnit: ControlBase::Initialize time: 0.000002
+LOADING ../../../DLC/Expansion2/UI/Replacements/SelectedUnit_Expansion2.lua	Load time: 0.009844
+END    LuaContext::Initialize() id: 'SelectedUnit'
+START  LuaContext::Initialize() id: 'WorldViewPlotMessages'		parent: 'WorldViewControls'		Context: 'InGame'
+WorldViewPlotMessages: register time: 0.002520
+WorldViewPlotMessages: ControlBase::Initialize time: 0.000002
+LOADING ../../../Base/Assets/UI/WorldViewPlotMessages.lua	Load time: 0.006105
+END    LuaContext::Initialize() id: 'WorldViewPlotMessages'
+START  LuaContext::Initialize() id: 'SettlerWarningIconManager'		parent: 'WorldViewControls'		Context: 'InGame'
+SettlerWarningIconManager: register time: 0.002723
+SettlerWarningIconManager: ControlBase::Initialize time: 0.000002
+LOADING ../../../DLC/Expansion2/UI/Additions/SettlerWarningIconManager.lua	Load time: 0.007116
+END    LuaContext::Initialize() id: 'SettlerWarningIconManager'
+START  LuaContext::Initialize() id: 'PowerLensManager'		parent: 'WorldViewControls'		Context: 'InGame'
+PowerLensManager: register time: 0.002137
+PowerLensManager: ControlBase::Initialize time: 0.000002
+LOADING ../../../DLC/Expansion2/UI/Additions/PowerLensManager.lua	Load time: 0.005712
+END    LuaContext::Initialize() id: 'PowerLensManager'
+START  LuaContext::Initialize() id: 'GenVFX'		parent: 'WorldViewControls'		Context: 'InGame'
+GenVFX: register time: 0.001344
+GenVFX: ControlBase::Initialize time: 0.000001
+LOADING ../../../Base/Assets/UI/GenVFX.lua	Load time: 0.007130
+END    LuaContext::Initialize() id: 'GenVFX'
+START  LuaContext::Initialize() id: 'CameraManager'		parent: 'HUD'		Context: 'InGame'
+CameraManager: register time: 0.001415
+CameraManager: ControlBase::Initialize time: 0.000002
+LOADING ../../../Base/Assets/UI/WorldView/CameraManager.lua	Load time: 0.004152
+END    LuaContext::Initialize() id: 'CameraManager'
+START  LuaContext::Initialize() id: 'PlotToolTip'		parent: 'HUD'		Context: 'InGame'
+PlotToolTip: register time: 0.001350
+PlotToolTip: ControlBase::Initialize time: 0.000034
+LOADING ../../../DLC/Expansion2/UI/Replacements/PlotToolTip_Expansion2.lua	Load time: 0.011627
+END    LuaContext::Initialize() id: 'PlotToolTip'
+START  LuaContext::Initialize() id: 'StatusMessagePanel'		parent: 'HUD'		Context: 'InGame'
+StatusMessagePanel: register time: 0.001420
+StatusMessagePanel: ControlBase::Initialize time: 0.000004
+LOADING ../../../Base/Assets/UI/Panels/StatusMessagePanel.lua	Load time: 0.005881
+END    LuaContext::Initialize() id: 'StatusMessagePanel'
+START  LuaContext::Initialize() id: 'NotificationPanel'		parent: 'HUD'		Context: 'InGame'
+NotificationPanel: register time: 0.002581
+NotificationPanel: ControlBase::Initialize time: 0.000025
+LOADING ../../../Base/Assets/UI/Panels/NotificationPanel.lua	Load time: 0.019463
+END    LuaContext::Initialize() id: 'NotificationPanel'
+START  LuaContext::Initialize() id: 'WorldTracker'		parent: 'HUD'		Context: 'InGame'
+WorldTracker: register time: 0.001125
+START  LuaContext::Initialize() id: ''		parent: 'ChatPanel'		Context: 'WorldTracker'
+ChatPanel: register time: 0.001302
+START  LuaContext::Initialize() id: 'ConfirmKick'		parent: ''		Context: ''
+ConfirmKick: register time: 0.001099
+ConfirmKick: ControlBase::Initialize time: 0.000130
+LOADING ../../../Base/Assets/UI/FrontEnd/Multiplayer/ConfirmKick.lua	Load time: 0.002086
+END    LuaContext::Initialize() id: 'ConfirmKick'
+ChatPanel: ControlBase::Initialize time: 0.005006
+LOADING ../../../Base/Assets/UI/Popups/ChatPanel.lua	Load time: 0.016776
+END    LuaContext::Initialize() id: ''
+START  LuaContext::Initialize() id: ''		parent: 'TutorialGoals'		Context: 'WorldTracker'
+TutorialGoals: register time: 0.000837
+TutorialGoals: ControlBase::Initialize time: 0.000095
+LOADING ../../../Base/Assets/UI/TutorialGoals.lua	Load time: 0.005644
+END    LuaContext::Initialize() id: 'TutorialGoals'
+WorldTracker: ControlBase::Initialize time: 0.045116
+LOADING ../../../DLC/Expansion2/UI/Replacements/WorldTracker_Expansion1.lua	Load time: 0.057779
+START  LuaContext::Initialize() id: ''		parent: 'PanelStack'		Context: 'NULL'
+WorldCrisisTracker: register time: 0.000946
+WorldCrisisTracker: ControlBase::Initialize time: 0.000010
+LOADING ../../../DLC/Expansion2/UI/Additions/WorldCrisisTracker.lua	Load time: 0.006153
+END    LuaContext::Initialize() id: ''
+END    LuaContext::Initialize() id: 'WorldTracker'
+START  LuaContext::Initialize() id: 'MinimapPanel'		parent: 'HUD'		Context: 'InGame'
+MinimapPanel: register time: 0.000848
+START  LuaContext::Initialize() id: ''		parent: 'MapPinListPanel'		Context: 'MinimapPanel'
+MapPinListPanel: register time: 0.001016
+MapPinListPanel: ControlBase::Initialize time: 0.000077
+LOADING ../../../Base/Assets/UI/Popups/MapPinListPanel.lua	Load time: 0.005677
+END    LuaContext::Initialize() id: ''
+START  LuaContext::Initialize() id: ''		parent: 'MapSearchPanel'		Context: 'MinimapPanel'
+MapSearchPanel: register time: 0.001114
+MapSearchPanel: ControlBase::Initialize time: 0.000168
+LOADING ../../../DLC/Expansion2/UI/Replacements/MapSearchPanel_Expansion2.lua	Load time: 0.011459
+END    LuaContext::Initialize() id: ''
+MinimapPanel: ControlBase::Initialize time: 0.053206
+LOADING ../../../DLC/Expansion2/UI/Replacements/MinimapPanel_Expansion2.lua	Load time: 0.016266
+END    LuaContext::Initialize() id: 'MinimapPanel'
+START  LuaContext::Initialize() id: 'CityPanel'		parent: 'HUD'		Context: 'InGame'
+CityPanel: register time: 0.000840
+CityPanel: ControlBase::Initialize time: 0.001428
+LOADING ../../../DLC/Expansion2/UI/Replacements/CityPanel_Expansion2.lua	Load time: 0.038839
+END    LuaContext::Initialize() id: 'CityPanel'
+START  LuaContext::Initialize() id: 'UnitPanel'		parent: 'HUD'		Context: 'InGame'
+UnitPanel: register time: 0.001028
+UnitPanel: ControlBase::Initialize time: 0.002049
+LOADING ../../../DLC/Expansion2/UI/Replacements/UnitPanel_Expansion2.lua	Load time: 0.040309
+END    LuaContext::Initialize() id: 'UnitPanel'
+START  LuaContext::Initialize() id: 'ActionPanel'		parent: 'HUD'		Context: 'InGame'
+ActionPanel: register time: 0.001123
+ActionPanel: ControlBase::Initialize time: 0.000822
+LOADING ../../../DLC/Expansion2/UI/Replacements/ActionPanel_Expansion2.lua	Load time: 0.023134
+END    LuaContext::Initialize() id: 'ActionPanel'
+START  LuaContext::Initialize() id: 'MultiplayerTurnManager'		parent: 'HUD'		Context: 'InGame'
+MultiplayerTurnManager: register time: 0.001322
+MultiplayerTurnManager: ControlBase::Initialize time: 0.000093
+LOADING ../../../Base/Assets/UI/Panels/MultiplayerTurnManager.lua	Load time: 0.004591
+END    LuaContext::Initialize() id: 'MultiplayerTurnManager'
+START  LuaContext::Initialize() id: 'TopPanel'		parent: 'PartialScreens'		Context: 'InGame'
+TopPanel: register time: 0.001285
+TopPanel: ControlBase::Initialize time: 0.000352
+LOADING ../../../DLC/Expansion2/UI/Replacements/TopPanel_Expansion2.lua	Load time: 0.024676
+END    LuaContext::Initialize() id: 'TopPanel'
+START  LuaContext::Initialize() id: 'DiplomacyRibbon'		parent: 'PartialScreens'		Context: 'InGame'
+DiplomacyRibbon: register time: 0.001025
+DiplomacyRibbon: ControlBase::Initialize time: 0.000129
+LOADING ../../../DLC/Expansion2/UI/Replacements/DiplomacyRibbon_Expansion2.lua	Load time: 0.038440
+END    LuaContext::Initialize() id: 'DiplomacyRibbon'
+START  LuaContext::Initialize() id: 'CityStates'		parent: 'PartialScreens'		Context: 'InGame'
+CityStates: register time: 0.000848
+CityStates: ControlBase::Initialize time: 0.001426
+LOADING ../../../DLC/Expansion2/UI/Replacements/CityStates_Expansion2.lua	Load time: 0.021431
+END    LuaContext::Initialize() id: 'CityStates'
+START  LuaContext::Initialize() id: 'EspionageOverview'		parent: 'PartialScreens'		Context: 'InGame'
+EspionageOverview: register time: 0.000814
+EspionageOverview: ControlBase::Initialize time: 0.000622
+LOADING ../../../DLC/Expansion2/UI/Replacements/EspionageOverview_Expansion1.lua	Load time: 0.015577
+END    LuaContext::Initialize() id: 'EspionageOverview'
+START  LuaContext::Initialize() id: 'WorldRankings'		parent: 'PartialScreens'		Context: 'InGame'
+WorldRankings: register time: 0.000816
+WorldRankings: ControlBase::Initialize time: 0.000604
+LOADING ../../../DLC/Expansion2/UI/Replacements/WorldRankings_Expansion2.lua	Load time: 0.016551
+END    LuaContext::Initialize() id: 'WorldRankings'
+START  LuaContext::Initialize() id: 'TradeOverview'		parent: 'PartialScreens'		Context: 'InGame'
+TradeOverview: register time: 0.000834
+TradeOverview: ControlBase::Initialize time: 0.000268
+LOADING ../../../Base/Assets/UI/TradeOverview.lua	Load time: 0.012167
+END    LuaContext::Initialize() id: 'TradeOverview'
+START  LuaContext::Initialize() id: 'ReportsList'		parent: 'PartialScreens'		Context: 'InGame'
+ReportsList: register time: 0.000838
+ReportsList: ControlBase::Initialize time: 0.000066
+LOADING ../../../Base/Assets/UI/PartialScreens/ReportsList.lua	Load time: 0.011081
+END    LuaContext::Initialize() id: 'ReportsList'
+START  LuaContext::Initialize() id: 'PartialScreenHooks'		parent: 'PartialScreens'		Context: 'InGame'
+PartialScreenHooks: register time: 0.000886
+PartialScreenHooks: ControlBase::Initialize time: 0.000210
+LOADING ../../../DLC/Expansion2/UI/Replacements/PartialScreenHooks_Expansion2.lua	Load time: 0.014212
+END    LuaContext::Initialize() id: 'PartialScreenHooks'
+START  LuaContext::Initialize() id: 'ProductionManager'		parent: 'PartialScreens'		Context: 'InGame'
+ProductionManager: register time: 0.000931
+ProductionManager: ControlBase::Initialize time: 0.000071
+LOADING ../../../Base/Assets/UI/ProductionManager.lua	Load time: 0.020236
+END    LuaContext::Initialize() id: 'ProductionManager'
+START  LuaContext::Initialize() id: 'ProductionPanel'		parent: 'PartialScreens'		Context: 'InGame'
+ProductionPanel: register time: 0.000796
+ProductionPanel: ControlBase::Initialize time: 0.001059
+LOADING ../../../Base/Assets/UI/Panels/ProductionPanel.lua	Load time: 0.027196
+END    LuaContext::Initialize() id: 'ProductionPanel'
+START  LuaContext::Initialize() id: 'EdgeScroll'		parent: 'InGame'		Context: 'InGame'
+EdgeScroll: register time: 0.002737
+EdgeScroll: ControlBase::Initialize time: 0.000003
+LOADING ../../../Base/Assets/UI/EdgeScroll.lua	Load time: 0.005275
+END    LuaContext::Initialize() id: 'EdgeScroll'
+START  LuaContext::Initialize() id: 'FullscreenMapPopup'		parent: 'Screens'		Context: 'InGame'
+FullscreenMapPopup: register time: 0.002314
+FullscreenMapPopup: ControlBase::Initialize time: 0.000007
+LOADING ../../../DLC/Expansion2/UI/Replacements/FullscreenMapPopup_Expansion2.lua	Load time: 0.009267
+END    LuaContext::Initialize() id: 'FullscreenMapPopup'
+START  LuaContext::Initialize() id: 'TechTree'		parent: 'Screens'		Context: 'InGame'
+TechTree: register time: 0.002371
+DEPRECATED: 'full' size should be parent-sized to a root context
+TechTree: ControlBase::Initialize time: 0.000794
+LOADING ../../../DLC/Expansion2/UI/Replacements/TechTree_Expansion2.lua	Load time: 0.043562
+END    LuaContext::Initialize() id: 'TechTree'
+START  LuaContext::Initialize() id: 'CivicsTree'		parent: 'Screens'		Context: 'InGame'
+CivicsTree: register time: 0.001346
+DEPRECATED: 'full' size should be parent-sized to a root context
+CivicsTree: ControlBase::Initialize time: 0.000659
+LOADING ../../../DLC/Expansion2/UI/Replacements/CivicsTree_Expansion2.lua	Load time: 0.028349
+END    LuaContext::Initialize() id: 'CivicsTree'
+START  LuaContext::Initialize() id: 'ClimateScreen'		parent: 'Screens'		Context: 'InGame'
+ClimateScreen: register time: 0.000785
+ClimateScreen: ControlBase::Initialize time: 0.001405
+LOADING ../../../DLC/GranColombia_Maya/UI/Replacements/ClimateScreen_GranColombia_Maya.lua	Load time: 0.016809
+END    LuaContext::Initialize() id: 'ClimateScreen'
+START  LuaContext::Initialize() id: 'GovernmentScreen'		parent: 'Screens'		Context: 'InGame'
+GovernmentScreen: register time: 0.000836
+GovernmentScreen: ControlBase::Initialize time: 0.000939
+LOADING ../../../DLC/Expansion2/UI/Replacements/GovernmentScreen_Expansion2.lua	Load time: 0.025526
+END    LuaContext::Initialize() id: 'GovernmentScreen'
+START  LuaContext::Initialize() id: 'ReligionScreen'		parent: 'Screens'		Context: 'InGame'
+ReligionScreen: register time: 0.000891
+ReligionScreen: ControlBase::Initialize time: 0.001352
+LOADING ../../../Base/Assets/UI/ReligionScreen.lua	Load time: 0.009450
+END    LuaContext::Initialize() id: 'ReligionScreen'
+START  LuaContext::Initialize() id: 'GreatWorksOverview'		parent: 'Screens'		Context: 'InGame'
+GreatWorksOverview: register time: 0.000861
+GreatWorksOverview: ControlBase::Initialize time: 0.000542
+LOADING ../../../Base/Assets/UI/GreatWorksOverview.lua	Load time: 0.019965
+END    LuaContext::Initialize() id: 'GreatWorksOverview'
+START  LuaContext::Initialize() id: 'GreatWorkShowcase'		parent: 'Screens'		Context: 'InGame'
+GreatWorkShowcase: register time: 0.000822
+GreatWorkShowcase: ControlBase::Initialize time: 0.000196
+LOADING ../../../Base/Assets/UI/GreatWorkShowcase.lua	Load time: 0.006320
+END    LuaContext::Initialize() id: 'GreatWorkShowcase'
+START  LuaContext::Initialize() id: 'GreatPeoplePopup'		parent: 'Screens'		Context: 'InGame'
+GreatPeoplePopup: register time: 0.000863
+GreatPeoplePopup: ControlBase::Initialize time: 0.000346
+LOADING ../../../Base/Assets/UI/Popups/GreatPeoplePopup.lua	Load time: 0.042251
+END    LuaContext::Initialize() id: 'GreatPeoplePopup'
+START  LuaContext::Initialize() id: 'GlobalResourcePopup'		parent: 'Screens'		Context: 'InGame'
+GlobalResourcePopup: register time: 0.000768
+GlobalResourcePopup: ControlBase::Initialize time: 0.000158
+LOADING ../../../Base/Assets/UI/Screens/GlobalResourcePopup.lua	Load time: 0.006784
+END    LuaContext::Initialize() id: 'GlobalResourcePopup'
+START  LuaContext::Initialize() id: 'ReportScreen'		parent: 'Screens'		Context: 'InGame'
+ReportScreen: register time: 0.000921
+ReportScreen: ControlBase::Initialize time: 0.000436
+LOADING ../../../DLC/Expansion2/UI/Replacements/ReportScreen_Expansion2.lua	Load time: 0.029124
+END    LuaContext::Initialize() id: 'ReportScreen'
+START  LuaContext::Initialize() id: 'LaunchBar'		parent: 'TopLevelHUD'		Context: 'InGame'
+LaunchBar: register time: 0.002097
+LaunchBar: ControlBase::Initialize time: 0.000314
+LOADING ../../../DLC/Expansion2/UI/Replacements/LaunchBar_Expansion2.lua	Load time: 0.015314
+END    LuaContext::Initialize() id: 'LaunchBar'
+START  LuaContext::Initialize() id: 'TradeRouteChooser'		parent: 'TopLevelHUD'		Context: 'InGame'
+TradeRouteChooser: register time: 0.002449
+TradeRouteChooser: ControlBase::Initialize time: 0.000310
+LOADING ../../../Base/Assets/UI/Choosers/TradeRouteChooser.lua	Load time: 0.009964
+END    LuaContext::Initialize() id: 'TradeRouteChooser'
+START  LuaContext::Initialize() id: 'TradeOriginChooser'		parent: 'TopLevelHUD'		Context: 'InGame'
+TradeOriginChooser: register time: 0.002294
+TradeOriginChooser: ControlBase::Initialize time: 0.000035
+LOADING ../../../Base/Assets/UI/Choosers/TradeOriginChooser.lua	Load time: 0.006539
+END    LuaContext::Initialize() id: 'TradeOriginChooser'
+START  LuaContext::Initialize() id: 'CivicsChooser'		parent: 'TopLevelHUD'		Context: 'InGame'
+CivicsChooser: register time: 0.001391
+CivicsChooser: ControlBase::Initialize time: 0.000110
+LOADING ../../../Base/Assets/UI/Choosers/CivicsChooser.lua	Load time: 0.027806
+END    LuaContext::Initialize() id: 'CivicsChooser'
+START  LuaContext::Initialize() id: 'ResearchChooser'		parent: 'TopLevelHUD'		Context: 'InGame'
+ResearchChooser: register time: 0.001385
+ResearchChooser: ControlBase::Initialize time: 0.000270
+LOADING ../../../DLC/Expansion2/UI/Replacements/ResearchChooser_Expansion1.lua	Load time: 0.034054
+END    LuaContext::Initialize() id: 'ResearchChooser'
+START  LuaContext::Initialize() id: 'EspionageChooser'		parent: 'TopLevelHUD'		Context: 'InGame'
+EspionageChooser: register time: 0.001365
+EspionageChooser: ControlBase::Initialize time: 0.000223
+LOADING ../../../DLC/Expansion2/UI/Replacements/EspionageChooser_Expansion1.lua	Load time: 0.012196
+END    LuaContext::Initialize() id: 'EspionageChooser'
+START  LuaContext::Initialize() id: 'PantheonChooser'		parent: 'TopLevelHUD'		Context: 'InGame'
+PantheonChooser: register time: 0.001494
+PantheonChooser: ControlBase::Initialize time: 0.000204
+LOADING ../../../Base/Assets/UI/Choosers/PantheonChooser.lua	Load time: 0.006290
+END    LuaContext::Initialize() id: 'PantheonChooser'
+START  LuaContext::Initialize() id: 'CityPanelOverview'		parent: 'TopLevelHUD'		Context: 'InGame'
+CityPanelOverview: register time: 0.001284
+CityPanelOverview: ControlBase::Initialize time: 0.001688
+LOADING ../../../DLC/Expansion2/UI/Replacements/CityPanelOverview_Expansion2.lua	Load time: 0.038027
+START  LuaContext::Initialize() id: ''		parent: 'PanelDynamicTab'		Context: 'NULL'
+CityPanelCulture: register time: 0.001343
+CityPanelCulture: ControlBase::Initialize time: 0.001019
+LOADING ../../../DLC/Expansion2/UI/Additions/CityPanelCulture.lua	Load time: 0.007365
+END    LuaContext::Initialize() id: ''
+START  LuaContext::Initialize() id: ''		parent: 'PanelDynamicTab'		Context: 'NULL'
+CityPanelPower: register time: 0.001327
+CityPanelPower: ControlBase::Initialize time: 0.000235
+LOADING ../../../DLC/Expansion2/UI/Additions/CityPanelPower.lua	Load time: 0.008164
+END    LuaContext::Initialize() id: ''
+END    LuaContext::Initialize() id: 'CityPanelOverview'
+START  LuaContext::Initialize() id: 'ModalLensPanel'		parent: 'TopLevelHUD'		Context: 'InGame'
+ModalLensPanel: register time: 0.001408
+ModalLensPanel: ControlBase::Initialize time: 0.000045
+LOADING ../../../DLC/Expansion2/UI/Replacements/ModalLensPanel_Expansion2.lua	Load time: 0.013503
+END    LuaContext::Initialize() id: 'ModalLensPanel'
+START  LuaContext::Initialize() id: 'EraCompletePopup'		parent: 'WorldPopups'		Context: 'InGame'
+EraCompletePopup: register time: 0.001463
+EraCompletePopup: ControlBase::Initialize time: 0.000066
+LOADING ../../../DLC/Expansion2/UI/Additions/EraCompletePopup.lua	Load time: 0.010904
+END    LuaContext::Initialize() id: 'EraCompletePopup'
+START  LuaContext::Initialize() id: 'NaturalWonderPopup'		parent: 'WorldPopups'		Context: 'InGame'
+NaturalWonderPopup: register time: 0.001055
+NaturalWonderPopup: ControlBase::Initialize time: 0.000509
+LOADING ../../../Base/Assets/UI/Popups/NaturalWonderPopup.lua	Load time: 0.005848
+END    LuaContext::Initialize() id: 'NaturalWonderPopup'
+START  LuaContext::Initialize() id: 'NaturalDisasterPopup'		parent: 'WorldPopups'		Context: 'InGame'
+NaturalDisasterPopup: register time: 0.000907
+NaturalDisasterPopup: ControlBase::Initialize time: 0.000437
+LOADING ../../../DLC/GranColombia_Maya/UI/Replacements/NaturalDisasterPopup_GranColombia_Maya.lua	Load time: 0.012962
+END    LuaContext::Initialize() id: 'NaturalDisasterPopup'
+START  LuaContext::Initialize() id: 'RockBandMoviePopup'		parent: 'WorldPopups'		Context: 'InGame'
+RockBandMoviePopup: register time: 0.000932
+RockBandMoviePopup: ControlBase::Initialize time: 0.001253
+LOADING ../../../DLC/Expansion2/UI/Additions/RockBandMoviePopup.lua	Load time: 0.005743
+END    LuaContext::Initialize() id: 'RockBandMoviePopup'
+START  LuaContext::Initialize() id: 'RockBandPopup'		parent: 'WorldPopups'		Context: 'InGame'
+RockBandPopup: register time: 0.000886
+RockBandPopup: ControlBase::Initialize time: 0.000371
+LOADING ../../../DLC/Expansion2/UI/Additions/RockBandPopup.lua	Load time: 0.005596
+END    LuaContext::Initialize() id: 'RockBandPopup'
+START  LuaContext::Initialize() id: 'WonderBuiltPopup'		parent: 'WorldPopups'		Context: 'InGame'
+WonderBuiltPopup: register time: 0.000962
+WonderBuiltPopup: ControlBase::Initialize time: 0.000162
+LOADING ../../../Base/Assets/UI/Popups/WonderBuiltPopup.lua	Load time: 0.005329
+END    LuaContext::Initialize() id: 'WonderBuiltPopup'
+START  LuaContext::Initialize() id: 'ProjectBuiltPopup'		parent: 'WorldPopups'		Context: 'InGame'
+ProjectBuiltPopup: register time: 0.001000
+ProjectBuiltPopup: ControlBase::Initialize time: 0.000135
+LOADING ../../../Base/Assets/UI/Popups/ProjectBuiltPopup.lua	Load time: 0.005624
+END    LuaContext::Initialize() id: 'ProjectBuiltPopup'
+START  LuaContext::Initialize() id: 'MapPinPopup'		parent: 'WorldPopups'		Context: 'InGame'
+MapPinPopup: register time: 0.000934
+MapPinPopup: ControlBase::Initialize time: 0.000168
+LOADING ../../../Base/Assets/UI/Popups/MapPinPopup.lua	Load time: 0.033411
+END    LuaContext::Initialize() id: 'MapPinPopup'
+START  LuaContext::Initialize() id: 'PBCNotificationPopup'		parent: 'WorldPopups'		Context: 'InGame'
+PBCNotificationPopup: register time: 0.001181
+PBCNotificationPopup: ControlBase::Initialize time: 0.000001
+LOADING ../../../Base/Assets/UI/Popups/PBCNotificationPopup.lua	Load time: 0.006106
+END    LuaContext::Initialize() id: 'PBCNotificationPopup'
+START  LuaContext::Initialize() id: 'RazeCity'		parent: 'WorldPopups'		Context: 'InGame'
+RazeCity: register time: 0.001205
+RazeCity: ControlBase::Initialize time: 0.000170
+LOADING ../../../DLC/Expansion2/UI/Replacements/RazeCity_Expansion2.lua	Load time: 0.010921
+END    LuaContext::Initialize() id: 'RazeCity'
+START  LuaContext::Initialize() id: 'BoostUnlockedPopup'		parent: 'WorldPopups'		Context: 'InGame'
+BoostUnlockedPopup: register time: 0.001326
+BoostUnlockedPopup: ControlBase::Initialize time: 0.000088
+LOADING ../../../Base/Assets/UI/Popups/BoostUnlockedPopup.lua	Load time: 0.006440
+END    LuaContext::Initialize() id: 'BoostUnlockedPopup'
+START  LuaContext::Initialize() id: 'TechCivicCompletedPopup'		parent: 'WorldPopups'		Context: 'InGame'
+TechCivicCompletedPopup: register time: 0.001209
+TechCivicCompletedPopup: ControlBase::Initialize time: 0.004757
+LOADING ../../../Base/Assets/UI/Popups/TechCivicCompletedPopup.lua	Load time: 0.014659
+END    LuaContext::Initialize() id: 'TechCivicCompletedPopup'
+START  LuaContext::Initialize() id: 'UnitPromotionPopup'		parent: 'WorldPopups'		Context: 'InGame'
+UnitPromotionPopup: register time: 0.001074
+UnitPromotionPopup: ControlBase::Initialize time: 0.000086
+LOADING ../../../Base/Assets/UI/Popups/UnitPromotionPopup.lua	Load time: 0.011183
+END    LuaContext::Initialize() id: 'UnitPromotionPopup'
+START  LuaContext::Initialize() id: 'EspionagePopup'		parent: 'WorldPopups'		Context: 'InGame'
+EspionagePopup: register time: 0.001059
+EspionagePopup: ControlBase::Initialize time: 0.001021
+LOADING ../../../Base/Assets/UI/Popups/EspionagePopup.lua	Load time: 0.007826
+END    LuaContext::Initialize() id: 'EspionagePopup'
+START  LuaContext::Initialize() id: 'EventPopup'		parent: 'WorldPopups'		Context: 'InGame'
+EventPopup: register time: 0.001061
+EventPopup: ControlBase::Initialize time: 0.000494
+LOADING ../../../Base/Assets/UI/Popups/EventPopup.lua	Load time: 0.019147
+END    LuaContext::Initialize() id: 'EventPopup'
+START  LuaContext::Initialize() id: 'Automation_NarrationPopup'		parent: 'WorldPopups'		Context: 'InGame'
+Automation_NarrationPopup: register time: 0.001043
+Automation_NarrationPopup: ControlBase::Initialize time: 0.000153
+LOADING ../../../Base/Assets/UI/Automation/Automation_NarrationPopup.lua	Load time: 0.006327
+END    LuaContext::Initialize() id: 'Automation_NarrationPopup'
+START  LuaContext::Initialize() id: 'ChooseArtifact'		parent: 'FakePopups'		Context: 'InGame'
+ChooseArtifact: register time: 0.001225
+ChooseArtifact: ControlBase::Initialize time: 0.000109
+LOADING ../../../Base/Assets/UI/Popups/ChooseArtifact.lua	Load time: 0.005111
+END    LuaContext::Initialize() id: 'ChooseArtifact'
+START  LuaContext::Initialize() id: 'EspionageEscape'		parent: 'FakePopups'		Context: 'InGame'
+EspionageEscape: register time: 0.001456
+EspionageEscape: ControlBase::Initialize time: 0.000288
+LOADING ../../../Base/Assets/UI/Popups/EspionageEscape.lua	Load time: 0.004884
+END    LuaContext::Initialize() id: 'EspionageEscape'
+START  LuaContext::Initialize() id: 'UnitCaptured'		parent: 'FakePopups'		Context: 'InGame'
+UnitCaptured: register time: 0.001493
+UnitCaptured: ControlBase::Initialize time: 0.000001
+LOADING ../../../Base/Assets/UI/Popups/UnitCaptured.lua	Load time: 0.005600
+END    LuaContext::Initialize() id: 'UnitCaptured'
+START  LuaContext::Initialize() id: 'InGamePopup'		parent: 'FakePopups'		Context: 'InGame'
+InGamePopup: register time: 0.001246
+InGamePopup: ControlBase::Initialize time: 0.000035
+LOADING ../../../Base/Assets/UI/Popups/InGamePopup.lua	Load time: 0.005838
+END    LuaContext::Initialize() id: 'InGamePopup'
+START  LuaContext::Initialize() id: 'WorldCongressPopup'		parent: 'Diplomacy'		Context: 'InGame'
+WorldCongressPopup: register time: 0.001385
+WorldCongressPopup: ControlBase::Initialize time: 0.000421
+LOADING ../../../DLC/Expansion2/UI/Additions/WorldCongressPopup.lua	Load time: 0.033217
+END    LuaContext::Initialize() id: 'WorldCongressPopup'
+START  LuaContext::Initialize() id: 'WorldCongressBetweenTurns'		parent: 'Diplomacy'		Context: 'InGame'
+WorldCongressBetweenTurns: register time: 0.001890
+WorldCongressBetweenTurns: ControlBase::Initialize time: 0.000503
+LOADING ../../../DLC/Expansion2/UI/Additions/WorldCongressBetweenTurns.lua	Load time: 0.009021
+END    LuaContext::Initialize() id: 'WorldCongressBetweenTurns'
+START  LuaContext::Initialize() id: 'WorldCongressIntro'		parent: 'Diplomacy'		Context: 'InGame'
+WorldCongressIntro: register time: 0.001477
+WorldCongressIntro: ControlBase::Initialize time: 0.000204
+LOADING ../../../DLC/Expansion2/UI/Additions/WorldCongressIntro.lua	Load time: 0.010697
+END    LuaContext::Initialize() id: 'WorldCongressIntro'
+START  LuaContext::Initialize() id: 'LeaderScene'		parent: 'Diplomacy'		Context: 'InGame'
+LeaderScene: register time: 0.001399
+LeaderScene: ControlBase::Initialize time: 0.000005
+LOADING ../../../Base/Assets/UI/LeaderScene.lua	Load time: 0.015643
+END    LuaContext::Initialize() id: 'LeaderScene'
+START  LuaContext::Initialize() id: 'DiplomacyActionView'		parent: 'Diplomacy'		Context: 'InGame'
+DiplomacyActionView: register time: 0.001372
+DiplomacyActionView: ControlBase::Initialize time: 0.000503
+LOADING ../../../DLC/Expansion2/UI/Replacements/DiplomacyActionView_Expansion2.lua	Load time: 0.038558
+END    LuaContext::Initialize() id: 'DiplomacyActionView'
+START  LuaContext::Initialize() id: 'DiplomacyDealView'		parent: 'Diplomacy'		Context: 'InGame'
+DiplomacyDealView: register time: 0.000979
+DiplomacyDealView: ControlBase::Initialize time: 0.000696
+LOADING ../../../DLC/Expansion2/UI/Replacements/DiplomacyDealView.lua	Load time: 0.024023
+END    LuaContext::Initialize() id: 'DiplomacyDealView'
+START  LuaContext::Initialize() id: 'DeclareWarPopup'		parent: 'Diplomacy'		Context: 'InGame'
+DeclareWarPopup: register time: 0.000892
+DeclareWarPopup: ControlBase::Initialize time: 0.000332
+LOADING ../../../DLC/Expansion2/UI/Replacements/DeclareWarPopup_Expansion2.lua	Load time: 0.016787
+END    LuaContext::Initialize() id: 'DeclareWarPopup'
+START  LuaContext::Initialize() id: 'EndGameMenu'		parent: 'EndGame'		Context: 'InGame'
+EndGameMenu: register time: 0.000902
+EndGameMenu: ControlBase::Initialize time: 0.001957
+LOADING ../../../Base/Assets/UI/EndGame/EndGameMenu.lua	Load time: 0.024260
+END    LuaContext::Initialize() id: 'EndGameMenu'
+START  LuaContext::Initialize() id: 'PlayerChange'		parent: 'Network'		Context: 'InGame'
+PlayerChange: register time: 0.000952
+START  LuaContext::Initialize() id: 'SaveGameMenu'		parent: 'PlayerChange'		Context: 'PlayerChange'
+SaveGameMenu: register time: 0.000899
+SaveGameMenu: ControlBase::Initialize time: 0.000555
+LOADING ../../../Base/Assets/UI/Menus/SaveGameMenu.lua	Load time: 0.005417
+END    LuaContext::Initialize() id: 'SaveGameMenu'
+PlayerChange: ControlBase::Initialize time: 0.008486
+LOADING ../../../Base/Assets/UI/Popups/PlayerChange.lua	Load time: 0.005835
+END    LuaContext::Initialize() id: 'PlayerChange'
+START  LuaContext::Initialize() id: 'NewTurnPanel'		parent: 'Network'		Context: 'InGame'
+NewTurnPanel: register time: 0.000975
+NewTurnPanel: ControlBase::Initialize time: 0.000025
+LOADING ../../../DLC/Expansion2/UI/Replacements/NewTurnPanel_Expansion1.lua	Load time: 0.008436
+END    LuaContext::Initialize() id: 'NewTurnPanel'
+START  LuaContext::Initialize() id: 'Civilopedia'		parent: 'InGame'		Context: 'InGame'
+CivilopediaScreen: register time: 0.000903
+CivilopediaScreen: ControlBase::Initialize time: 0.000508
+LOADING ../../../Base/Assets/UI/Civilopedia/CivilopediaScreen.lua	Load time: 0.252157
+END    LuaContext::Initialize() id: 'Civilopedia'
+START  LuaContext::Initialize() id: 'PausePanel'		parent: 'InGame'		Context: 'InGame'
+PausePanel: register time: 0.000805
+PausePanel: ControlBase::Initialize time: 0.000077
+LOADING ../../../Base/Assets/UI/Panels/PausePanel.lua	Load time: 0.005151
+END    LuaContext::Initialize() id: 'PausePanel'
+START  LuaContext::Initialize() id: 'SwitchLayoutPopup'		parent: 'InGame'		Context: 'InGame'
+SwitchLayoutPopup: register time: 0.000743
+SwitchLayoutPopup: ControlBase::Initialize time: 0.000098
+LOADING ../../../Base/Assets/UI/Popups/SwitchLayoutPopup.lua	Load time: 0.000459
+END    LuaContext::Initialize() id: 'SwitchLayoutPopup'
+START  LuaContext::Initialize() id: 'HotSeatBackground'		parent: 'InGame'		Context: 'InGame'
+HotSeatBackground: register time: 0.000659
+HotSeatBackground: ControlBase::Initialize time: 0.000003
+LOADING ../../../Base/Assets/UI/Menus/HotSeatBackground.lua	Load time: 0.010477
+END    LuaContext::Initialize() id: 'HotSeatBackground'
+START  LuaContext::Initialize() id: 'TopOptionsMenu'		parent: 'InGame'		Context: 'InGame'
+InGameTopOptionsMenu: register time: 0.000829
+START  LuaContext::Initialize() id: 'LoadGameMenu'		parent: 'TopOptionsMenu'		Context: 'TopOptionsMenu'
+LoadGameMenu: register time: 0.000833
+LoadGameMenu: ControlBase::Initialize time: 0.000328
+LOADING ../../../Base/Assets/UI/FrontEnd/LoadGameMenu.lua	Load time: 0.012044
+END    LuaContext::Initialize() id: 'LoadGameMenu'
+START  LuaContext::Initialize() id: 'SaveGameMenu'		parent: 'TopOptionsMenu'		Context: 'TopOptionsMenu'
+SaveGameMenu: register time: 0.000763
+SaveGameMenu: ControlBase::Initialize time: 0.000392
+LOADING ../../../Base/Assets/UI/Menus/SaveGameMenu.lua	Load time: 0.004302
+END    LuaContext::Initialize() id: 'SaveGameMenu'
+START  LuaContext::Initialize() id: 'Options'		parent: 'TopOptionsMenu'		Context: 'TopOptionsMenu'
+Options: register time: 0.000831
+Options: ControlBase::Initialize time: 0.003250
+LOADING ../../../Base/Assets/UI/Options.lua	Load time: 0.025982
+END    LuaContext::Initialize() id: 'Options'
+InGameTopOptionsMenu: ControlBase::Initialize time: 0.055526
+LOADING ../../../DLC/Expansion2/UI/Replacements/Expansion1_InGameTopOptionsMenu.lua	Load time: 0.020541
+END    LuaContext::Initialize() id: 'TopOptionsMenu'
+InGame: ControlBase::Initialize time: 3.534649
+START  LuaContext::Initialize() id: 'DedicationPopup'		parent: 'AdditionalUserInterfaces'		Context: 'NULL'
+DedicationPopup: register time: 0.000877
+DedicationPopup: ControlBase::Initialize time: 0.000059
+LOADING ../../../DLC/Expansion2/UI/Additions/DedicationPopup.lua	Load time: 0.005726
+END    LuaContext::Initialize() id: 'DedicationPopup'
+START  LuaContext::Initialize() id: 'DisloyalCityChooser'		parent: 'AdditionalUserInterfaces'		Context: 'NULL'
+DisloyalCityChooser: register time: 0.000750
+DisloyalCityChooser: ControlBase::Initialize time: 0.000119
+LOADING ../../../DLC/Expansion2/UI/Additions/DisloyalCityChooser.lua	Load time: 0.004440
+END    LuaContext::Initialize() id: 'DisloyalCityChooser'
+START  LuaContext::Initialize() id: 'EraProgressPanel'		parent: 'AdditionalUserInterfaces'		Context: 'NULL'
+EraProgressPanel: register time: 0.000785
+EraProgressPanel: ControlBase::Initialize time: 0.001294
+LOADING ../../../DLC/Expansion2/UI/Additions/EraProgressPanel.lua	Load time: 0.012916
+END    LuaContext::Initialize() id: 'EraProgressPanel'
+START  LuaContext::Initialize() id: 'EraReviewPopup'		parent: 'AdditionalUserInterfaces'		Context: 'NULL'
+EraReviewPopup: register time: 0.000899
+EraReviewPopup: ControlBase::Initialize time: 0.000173
+LOADING ../../../DLC/Expansion2/UI/Additions/EraReviewPopup.lua	Load time: 0.007663
+END    LuaContext::Initialize() id: 'EraReviewPopup'
+START  LuaContext::Initialize() id: 'ExpansionIntro'		parent: 'AdditionalUserInterfaces'		Context: 'NULL'
+ExpansionIntro: register time: 0.000944
+ExpansionIntro: ControlBase::Initialize time: 0.000122
+LOADING ../../../DLC/Expansion2/UI/Additions/ExpansionIntro.lua	Load time: 0.005231
+END    LuaContext::Initialize() id: 'ExpansionIntro'
+START  LuaContext::Initialize() id: 'GovernorAssignmentChooser'		parent: 'AdditionalUserInterfaces'		Context: 'NULL'
+GovernorAssignmentChooser: register time: 0.000760
+GovernorAssignmentChooser: ControlBase::Initialize time: 0.000712
+LOADING ../../../DLC/Expansion2/UI/Additions/GovernorAssignmentChooser.lua	Load time: 0.013450
+END    LuaContext::Initialize() id: 'GovernorAssignmentChooser'
+START  LuaContext::Initialize() id: 'GovernorPanel'		parent: 'AdditionalUserInterfaces'		Context: 'NULL'
+GovernorPanel: register time: 0.000785
+START  LuaContext::Initialize() id: 'DetailsPanel'		parent: 'GovernorPanelContainer'		Context: 'GovernorPanel'
+GovernorDetailsPanel: register time: 0.000780
+GovernorDetailsPanel: ControlBase::Initialize time: 0.000218
+LOADING ../../../DLC/Expansion2/UI/Additions/GovernorDetailsPanel.lua	Load time: 0.012171
+END    LuaContext::Initialize() id: 'DetailsPanel'
+GovernorPanel: ControlBase::Initialize time: 0.021904
+LOADING ../../../DLC/Expansion2/UI/Additions/GovernorPanel.lua	Load time: 0.023655
+END    LuaContext::Initialize() id: 'GovernorPanel'
+START  LuaContext::Initialize() id: 'HistoricMoments'		parent: 'AdditionalUserInterfaces'		Context: 'NULL'
+HistoricMoments: register time: 0.001067
+HistoricMoments: ControlBase::Initialize time: 0.000360
+LOADING ../../../DLC/Expansion2/UI/Additions/HistoricMoments.lua	Load time: 0.009015
+END    LuaContext::Initialize() id: 'HistoricMoments'
+START  LuaContext::Initialize() id: 'WorldCrisisPopup'		parent: 'AdditionalUserInterfaces'		Context: 'NULL'
+WorldCrisisPopup: register time: 0.002839
+WorldCrisisPopup: ControlBase::Initialize time: 0.000269
+LOADING ../../../DLC/Expansion2/UI/Additions/WorldCrisisPopup.lua	Load time: 0.008794
+END    LuaContext::Initialize() id: 'WorldCrisisPopup'
+LOADING ../../../DLC/Expansion2/UI/Replacements/InGame.lua	Load time: 0.204033
+END    LuaContext::Initialize() id: 'InGame'
+START  LuaContext::Initialize() id: ''		parent: 'NULL'		Context: 'NULL'
+TutorialUIRoot: register time: 0.002333
+START  LuaContext::Initialize() id: 'AdvisorPopup'		parent: 'TutorialUIRoot'		Context: 'TutorialUIRoot'
+AdvisorPopup: register time: 0.002696
+AdvisorPopup: ControlBase::Initialize time: 0.000244
+LOADING ../../../Base/Assets/UI/Popups/AdvisorPopup.lua	Load time: 0.011407
+END    LuaContext::Initialize() id: 'AdvisorPopup'
+START  LuaContext::Initialize() id: 'TutorialWorldAnchor'		parent: 'TutorialUIRoot'		Context: 'TutorialUIRoot'
+TutorialWorldAnchor: register time: 0.002694
+TutorialWorldAnchor: ControlBase::Initialize time: 0.000028
+LOADING ../../../Base/Assets/UI/TutorialWorldAnchor.lua	Load time: 0.004810
+END    LuaContext::Initialize() id: 'TutorialWorldAnchor'
+TutorialUIRoot: ControlBase::Initialize time: 0.035971
+LOADING ../../../DLC/Expansion2/UI/Replacements/TutorialUIRoot_Expansion1.lua	Load time: 0.042322
+END    LuaContext::Initialize() id: 'TutorialUIRoot'
+START  LuaContext::Initialize() id: ''		parent: 'InGame'		Context: 'InGame'
+InvitePopup: register time: 0.001580
+InvitePopup: ControlBase::Initialize time: 0.000053
+LOADING ../../../Base/Assets/UI/Popups/InvitePopup.lua	Load time: 0.002764
+END    LuaContext::Initialize() id: 'InvitePopup'
+
+NumBlocks:   3 
+Allocated: 12.00 mb, Used: 12.00 mb, Free: 0.00 mb 
+
+NumControls: 18056 
+
+ControlBase Size: 208 
+
+Active, 		Total, 		Object Size,		 Total Size		 Name
+   27, 		    27, 		   544, 		     14688, 		 UIString512
+    3, 		   242, 		  1536, 		    371712, 		 ScrollTextControl
+   74, 		    74, 		   768, 		     56832, 		 BarControl
+    0, 		     1, 		   224, 		       224, 		 GroupControl
+  239, 		   239, 		  1632, 		    390048, 		 SliderControl
+    2, 		     3, 		  2960, 		      8880, 		 ContextBase
+  841, 		   842, 		   560, 		    471520, 		 ButtonControl
+   21, 		    21, 		   288, 		      6048, 		 UIString256
+  642, 		   642, 		    64, 		     41088, 		 UIMaskInfo
+ 4724, 		  4741, 		   416, 		   1972256, 		 ImageControl
+  159, 		   159, 		   400, 		     63600, 		 SlideAnim
+  374, 		   375, 		   224, 		     84000, 		 ColorBoxControl
+   11, 		    11, 		   304, 		      3344, 		 WorldAnchorControl
+    0, 		     1, 		   288, 		       288, 		 PlatformControl
+   12, 		    12, 		   160, 		      1920, 		 UIString128
+    2, 		     2, 		   464, 		       928, 		 DragControl
+ 1615, 		  1622, 		   224, 		    363328, 		 ControlBase
+    3, 		     3, 		   816, 		      2448, 		 GraphControl
+   52, 		    55, 		   384, 		     21120, 		 LineControl
+    3, 		     3, 		    96, 		       288, 		 UIString64
+ 7265, 		  7287, 		    96, 		    699552, 		 ControlChildList
+   60, 		    60, 		   272, 		     16320, 		 TutorialControl
+   41, 		    41, 		   320, 		     13120, 		 ZoomAnchorControl
+   10, 		    10, 		   656, 		      6560, 		 ColorBoxButtonControl
+  503, 		   504, 		   400, 		    201600, 		 AlphaAnim
+   10, 		    10, 		  3440, 		     34400, 		 RadioButtonControl
+    2, 		     2, 		  1616, 		      3232, 		 MovieControl
+ 1196, 		  1196, 		   976, 		   1167296, 		 GridButtonControl
+  128, 		   128, 		   608, 		     77824, 		 TextureBarControl
+   57, 		    57, 		  3440, 		    196080, 		 CheckBoxControl
+  291, 		   291, 		   528, 		    153648, 		 FlipAnim
+ 1507, 		  1508, 		   560, 		    844480, 		 GridControl
+  321, 		   321, 		   848, 		    272208, 		 MeterControl
+ 1592, 		  1598, 		   368, 		    588064, 		 StackControl
+ 3422, 		  3437, 		   432, 		   1484784, 		 TextControl
+    4, 		     6, 		  2208, 		     13248, 		 TextButtonControl
+  121, 		   122, 		  3744, 		    456768, 		 LuaContext
+   59, 		   129, 		  2608, 		    336432, 		 PullDownControl
+    1, 		     1, 		   304, 		       304, 		 ListBoxControl
+   21, 		    21, 		  1824, 		     38304, 		 EditBoxControl
+  181, 		   181, 		   512, 		     92672, 		 ScrollPanelControl
+
+Num Child Nodes: 18873
+
+Child Node distribution
+11968 nodes have     0 children
+ 3669 nodes have     1 children
+ 1821 nodes have     2 children
+  522 nodes have     3 children
+  316 nodes have     4 children
+  128 nodes have     5 children
+   62 nodes have     6 children
+   27 nodes have     7 children
+   53 nodes have     8 children
+   30 nodes have     9 children
+   23 nodes have    10 children
+   30 nodes have    11 children
+   37 nodes have    12 children
+   10 nodes have    13 children
+    4 nodes have    14 children
+  143 nodes have    15 children
+    6 nodes have    16 children
+    3 nodes have    17 children
+    1 nodes have    18 children
+    4 nodes have    19 children
+    2 nodes have    20 children
+    1 nodes have    26 children
+    1 nodes have    27 children
+    3 nodes have    28 children
+    1 nodes have    30 children
+    1 nodes have    31 children
+    1 nodes have    42 children
+    1 nodes have    56 children
+    1 nodes have    63 children
+    1 nodes have    67 children
+    1 nodes have    84 children
+    1 nodes have   325 children
+    1 nodes have   346 children
+
+Controls ID distribution
+ 6499 nodes have control IDs with     0 characters
+   63 nodes have control IDs with     2 characters
+  372 nodes have control IDs with     3 characters
+ 1055 nodes have control IDs with     4 characters
+  197 nodes have control IDs with     5 characters
+  293 nodes have control IDs with     6 characters
+  384 nodes have control IDs with     7 characters
+  755 nodes have control IDs with     8 characters
+ 1291 nodes have control IDs with     9 characters
+ 1373 nodes have control IDs with    10 characters
+ 1447 nodes have control IDs with    11 characters
+  741 nodes have control IDs with    12 characters
+  602 nodes have control IDs with    13 characters
+  650 nodes have control IDs with    14 characters
+  496 nodes have control IDs with    15 characters
+  460 nodes have control IDs with    16 characters
+  304 nodes have control IDs with    17 characters
+  304 nodes have control IDs with    18 characters
+  314 nodes have control IDs with    19 characters
+  196 nodes have control IDs with    20 characters
+  265 nodes have control IDs with    21 characters
+  221 nodes have control IDs with    22 characters
+  122 nodes have control IDs with    23 characters
+   91 nodes have control IDs with    24 characters
+  118 nodes have control IDs with    25 characters
+   64 nodes have control IDs with    26 characters
+   71 nodes have control IDs with    27 characters
+   37 nodes have control IDs with    28 characters
+   29 nodes have control IDs with    29 characters
+   18 nodes have control IDs with    30 characters
+   22 nodes have control IDs with    31 characters
+    5 nodes have control IDs with    32 characters
+    2 nodes have control IDs with    33 characters
+    1 nodes have control IDs with    34 characters
+    9 nodes have control IDs with    35 characters
+    1 nodes have control IDs with    37 characters
+    1 nodes have control IDs with    38 characters
+
+Contexts containing controls:
+ 2731 controls in context "TechTree"
+ 2472 controls in context "CivicsTree"
+ 1583 controls in context "CityBannerManager"
+ 1109 controls in context "GreatPeoplePopup"
+ 1026 controls in context "Options"
+  890 controls in context "[NO CONTEXT]"
+  755 controls in context "MapPinPopup"
+  730 controls in context "UnitFlagManager"
+  448 controls in context "GovernorPanel"
+  367 controls in context "WorldRankings"
+  354 controls in context "DebugContext"
+  301 controls in context "DiplomacyDealView"
+  275 controls in context "CityPanelOverview"
+  273 controls in context "ClimateScreen"
+  269 controls in context "GovernmentScreen"
+  256 controls in context "SaveGameMenu"
+  241 controls in context "ReligionScreen"
+  236 controls in context "UnitPanel"
+  230 controls in context ""
+  178 controls in context "ResearchChooser"
+  173 controls in context "ProductionPanel"
+  165 controls in context "EndGameMenu"
+  158 controls in context "ActionPanel"
+  145 controls in context "ReportScreen"
+  130 controls in context "Civilopedia"
+  129 controls in context "CityStates"
+  128 controls in context "WorldCongressPopup"
+  122 controls in context "TopOptionsMenu"
+  119 controls in context "CityPanel"
+  116 controls in context "LoadGameMenu"
+  113 controls in context "WorldTracker"
+  109 controls in context "InGame"
+  101 controls in context "DiplomacyActionView"
+   90 controls in context "EspionagePopup"
+   89 controls in context "TopPanel"
+   78 controls in context "WorldViewIconsManager"
+   72 controls in context "LaunchBar"
+   71 controls in context "WorldCrisisPopup"
+   70 controls in context "DiplomacyRibbon"
+   68 controls in context "EspionageOverview"
+   67 controls in context "MinimapPanel"
+   66 controls in context "TradeRouteChooser"
+   65 controls in context "DeclareWarPopup"
+   64 controls in context "EraProgressPanel"
+   61 controls in context "EventPopup"
+   58 controls in context "EspionageEscape"
+   55 controls in context "EraReviewPopup"
+   53 controls in context "HistoricMoments"
+   52 controls in context "DetailsPanel"
+   51 controls in context "ReportsList"
+   50 controls in context "GovernorAssignmentChooser"
+   47 controls in context "RockBandMoviePopup"
+   46 controls in context "RazeCity"
+   45 controls in context "EspionageChooser"
+   44 controls in context "CivicsChooser"
+   41 controls in context "TechCivicCompletedPopup"
+   40 controls in context "GreatWorksOverview"
+   38 controls in context "ExpansionIntro"
+   36 controls in context "Automation_NarrationPopup"
+   35 controls in context "GreatWorkShowcase"
+   34 controls in context "AdvisorPopup"
+   33 controls in context "PantheonChooser"
+   32 controls in context "ProjectBuiltPopup"
+   31 controls in context "GlobalResourcePopup"
+   29 controls in context "DedicationPopup"
+   28 controls in context "SwitchLayoutPopup"
+   26 controls in context "BoostUnlockedPopup"
+   24 controls in context "PartialScreenHooks"
+   23 controls in context "ChooseArtifact"
+   19 controls in context "EraCompletePopup"
+   17 controls in context "ModalLensPanel"
+   16 controls in context "ToolTips"
+   15 controls in context "DebugPanel"
+   13 controls in context "ProductionManager"
+   12 controls in context "NotificationPanel"
+   11 controls in context "FullscreenMapPopup"
+   10 controls in context "TradeOriginChooser"
+    9 controls in context "ConfirmKick"
+    8 controls in context "InGamePopup"
+    6 controls in context "NewTurnPanel"
+    5 controls in context "EdgeScroll"
+    4 controls in context "MultiplayerTurnManager"
+    3 controls in context "StatusMessagePanel"
+    2 controls in context "DebugViewer"
+    1 controls in context "DistrictPlotIconManager"
+
+NumBlocks:   3 
+Allocated: 12.00 mb, Used: 12.00 mb, Free: 0.00 mb 
+
+NumControls: 18411 
+
+ControlBase Size: 208 
+
+Active, 		Total, 		Object Size,		 Total Size		 Name
+    6, 		    27, 		   544, 		     14688, 		 UIString512
+    0, 		   242, 		  1536, 		    371712, 		 ScrollTextControl
+    0, 		    74, 		   768, 		     56832, 		 BarControl
+    0, 		     1, 		   224, 		       224, 		 GroupControl
+   11, 		   239, 		  1632, 		    390048, 		 SliderControl
+    2, 		     3, 		  2960, 		      8880, 		 ContextBase
+   22, 		   883, 		   560, 		    494480, 		 ButtonControl
+    0, 		    21, 		   288, 		      6048, 		 UIString256
+    0, 		   642, 		    64, 		     41088, 		 UIMaskInfo
+    4, 		  4848, 		   416, 		   2016768, 		 ImageControl
+    1, 		   162, 		   400, 		     64800, 		 SlideAnim
+    5, 		   375, 		   224, 		     84000, 		 ColorBoxControl
+    0, 		    15, 		   304, 		      4560, 		 WorldAnchorControl
+    0, 		     1, 		   288, 		       288, 		 PlatformControl
+    0, 		    12, 		   160, 		      1920, 		 UIString128
+    0, 		     2, 		   464, 		       928, 		 DragControl
+   51, 		  1657, 		   224, 		    371168, 		 ControlBase
+    2, 		     3, 		   816, 		      2448, 		 GraphControl
+    1, 		    55, 		   384, 		     21120, 		 LineControl
+    0, 		     3, 		    96, 		       288, 		 UIString64
+  161, 		  7481, 		    96, 		    718176, 		 ControlChildList
+    0, 		    60, 		   272, 		     16320, 		 TutorialControl
+    0, 		    49, 		   320, 		     15680, 		 ZoomAnchorControl
+    0, 		    10, 		   656, 		      6560, 		 ColorBoxButtonControl
+    1, 		   545, 		   400, 		    218000, 		 AlphaAnim
+    0, 		    10, 		  3440, 		     34400, 		 RadioButtonControl
+    0, 		     2, 		  1616, 		      3232, 		 MovieControl
+   16, 		  1203, 		   976, 		   1174128, 		 GridButtonControl
+    0, 		   136, 		   608, 		     82688, 		 TextureBarControl
+   19, 		    60, 		  3440, 		    206400, 		 CheckBoxControl
+    0, 		   291, 		   528, 		    153648, 		 FlipAnim
+   29, 		  1537, 		   560, 		    860720, 		 GridControl
+    0, 		   321, 		   848, 		    272208, 		 MeterControl
+   39, 		  1611, 		   368, 		    592848, 		 StackControl
+  155, 		  3490, 		   432, 		   1507680, 		 TextControl
+    0, 		     6, 		  2208, 		     13248, 		 TextButtonControl
+    1, 		   122, 		  3744, 		    456768, 		 LuaContext
+    0, 		   129, 		  2608, 		    336432, 		 PullDownControl
+    1, 		     1, 		   304, 		       304, 		 ListBoxControl
+    2, 		    21, 		  1824, 		     38304, 		 EditBoxControl
+   13, 		   184, 		   512, 		     94208, 		 ScrollPanelControl
+
+Num Child Nodes: 436
+
+Child Node distribution
+  276 nodes have     0 children
+  107 nodes have     1 children
+   18 nodes have     2 children
+   22 nodes have     3 children
+    1 nodes have     4 children
+    5 nodes have     5 children
+    3 nodes have    11 children
+    1 nodes have    15 children
+    1 nodes have    16 children
+    1 nodes have    20 children
+    1 nodes have    26 children
+
+Controls ID distribution
+  211 nodes have control IDs with     0 characters
+    3 nodes have control IDs with     2 characters
+   16 nodes have control IDs with     4 characters
+    1 nodes have control IDs with     5 characters
+   15 nodes have control IDs with     6 characters
+    5 nodes have control IDs with     7 characters
+   13 nodes have control IDs with     8 characters
+   11 nodes have control IDs with     9 characters
+   32 nodes have control IDs with    10 characters
+   24 nodes have control IDs with    11 characters
+   15 nodes have control IDs with    12 characters
+    6 nodes have control IDs with    13 characters
+    9 nodes have control IDs with    14 characters
+    9 nodes have control IDs with    15 characters
+    5 nodes have control IDs with    16 characters
+   22 nodes have control IDs with    17 characters
+    4 nodes have control IDs with    18 characters
+    2 nodes have control IDs with    19 characters
+    3 nodes have control IDs with    20 characters
+    5 nodes have control IDs with    22 characters
+   16 nodes have control IDs with    23 characters
+    2 nodes have control IDs with    24 characters
+    2 nodes have control IDs with    25 characters
+    2 nodes have control IDs with    26 characters
+    2 nodes have control IDs with    27 characters
+    1 nodes have control IDs with    29 characters
+
+Contexts containing controls:
+  354 controls in context "DebugContext"
+   49 controls in context "[NO CONTEXT]"
+   16 controls in context "ToolTips"
+   15 controls in context "DebugPanel"
+    2 controls in context "DebugViewer"
+[1676483385993] (SHUTDOWN) ===============================
+
+NumBlocks:   3 
+Allocated: 12.00 mb, Used: 12.00 mb, Free: 0.00 mb 
+
+NumControls: 18411 
+
+ControlBase Size: 208 
+
+Active, 		Total, 		Object Size,		 Total Size		 Name
+    3, 		    27, 		   544, 		     14688, 		 UIString512
+    0, 		   242, 		  1536, 		    371712, 		 ScrollTextControl
+    0, 		    74, 		   768, 		     56832, 		 BarControl
+    0, 		     1, 		   224, 		       224, 		 GroupControl
+    1, 		   239, 		  1632, 		    390048, 		 SliderControl
+    1, 		     3, 		  2960, 		      8880, 		 ContextBase
+    2, 		   883, 		   560, 		    494480, 		 ButtonControl
+    0, 		    21, 		   288, 		      6048, 		 UIString256
+    0, 		   642, 		    64, 		     41088, 		 UIMaskInfo
+    3, 		  4848, 		   416, 		   2016768, 		 ImageControl
+    1, 		   162, 		   400, 		     64800, 		 SlideAnim
+    4, 		   375, 		   224, 		     84000, 		 ColorBoxControl
+    0, 		    15, 		   304, 		      4560, 		 WorldAnchorControl
+    0, 		     1, 		   288, 		       288, 		 PlatformControl
+    0, 		    12, 		   160, 		      1920, 		 UIString128
+    0, 		     2, 		   464, 		       928, 		 DragControl
+    2, 		  1657, 		   224, 		    371168, 		 ControlBase
+    0, 		     3, 		   816, 		      2448, 		 GraphControl
+    1, 		    55, 		   384, 		     21120, 		 LineControl
+    0, 		     3, 		    96, 		       288, 		 UIString64
+   18, 		  7481, 		    96, 		    718176, 		 ControlChildList
+    0, 		    60, 		   272, 		     16320, 		 TutorialControl
+    0, 		    49, 		   320, 		     15680, 		 ZoomAnchorControl
+    0, 		    10, 		   656, 		      6560, 		 ColorBoxButtonControl
+    1, 		   545, 		   400, 		    218000, 		 AlphaAnim
+    0, 		    10, 		  3440, 		     34400, 		 RadioButtonControl
+    0, 		     2, 		  1616, 		      3232, 		 MovieControl
+    0, 		  1203, 		   976, 		   1174128, 		 GridButtonControl
+    0, 		   136, 		   608, 		     82688, 		 TextureBarControl
+    2, 		    60, 		  3440, 		    206400, 		 CheckBoxControl
+    0, 		   291, 		   528, 		    153648, 		 FlipAnim
+    8, 		  1537, 		   560, 		    860720, 		 GridControl
+    0, 		   321, 		   848, 		    272208, 		 MeterControl
+    5, 		  1611, 		   368, 		    592848, 		 StackControl
+    4, 		  3490, 		   432, 		   1507680, 		 TextControl
+    0, 		     6, 		  2208, 		     13248, 		 TextButtonControl
+    0, 		   122, 		  3744, 		    456768, 		 LuaContext
+    0, 		   129, 		  2608, 		    336432, 		 PullDownControl
+    0, 		     1, 		   304, 		       304, 		 ListBoxControl
+    1, 		    21, 		  1824, 		     38304, 		 EditBoxControl
+    1, 		   184, 		   512, 		     94208, 		 ScrollPanelControl
+
+Num Child Nodes: 43
+
+Child Node distribution
+   26 nodes have     0 children
+    9 nodes have     1 children
+    3 nodes have     2 children
+    4 nodes have     3 children
+    1 nodes have     5 children
+
+Controls ID distribution
+   13 nodes have control IDs with     0 characters
+    3 nodes have control IDs with     2 characters
+    1 nodes have control IDs with     7 characters
+    5 nodes have control IDs with     8 characters
+    3 nodes have control IDs with     9 characters
+    5 nodes have control IDs with    10 characters
+    6 nodes have control IDs with    11 characters
+    3 nodes have control IDs with    12 characters
+    2 nodes have control IDs with    13 characters
+    1 nodes have control IDs with    17 characters
+    1 nodes have control IDs with    19 characters
+
+Contexts containing controls:
+   16 controls in context "ToolTips"
+   15 controls in context "DebugPanel"
+   10 controls in context "[NO CONTEXT]"
+    2 controls in context "DebugViewer"
+ForgeUI shutting down.

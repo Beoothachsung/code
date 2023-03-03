@@ -1,0 +1,126 @@
+Game Turn, Range, Value, Seed, Type, Location
+2, 2500, 1453, 4179538971, sync, Random Event Roll
+2, 1, 0, 2496993720, sync, GetNextBuyablePlot picker
+2, 5, 3, 3907138449, sync, Random Lake Range
+2, 1, 0, 3341570806, sync, GetNextBuyablePlot picker
+2, 2, 0, 4016731895, sync, City Build District Choice
+2, 1, 0, 446568804, sync, GetNextBuyablePlot picker
+2, 3, 2, 2288351181, sync, Random Direction
+2, 8, 7, 3007490178, sync, Random Direction
+2, 1, 0, 4182084499, sync, GetNextBuyablePlot picker
+2, 8, 5, 2580899792, sync, Random Direction
+2, 5, 3, 2690565065, sync, Random Direction
+2, 1, 0, 2658585294, sync, GetNextBuyablePlot picker
+2, 2, 1, 3551743471, sync, City Build District Choice
+2, 5, 4, 3136368892, sync, Random Direction
+2, 8, 4, 4102476677, sync, Random Direction
+2, 1, 0, 2411251162, sync, GetNextBuyablePlot picker
+2, 5, 1, 3734034955, sync, Random Direction
+2, 5, 2, 1436442856, sync, Random Direction
+2, 1, 0, 2439389953, sync, GetNextBuyablePlot picker
+2, 2, 1, 1525507494, sync, City Build District Choice
+2, 2, 0, 3497069543, sync, City Build District Choice
+2, 2, 1, 225223572, sync, City Build District Choice
+2, 7, 2, 3918589501, sync, Random Direction
+2, 6, 4, 1534735922, sync, Random Direction
+2, 1, 0, 3426254723, sync, GetNextBuyablePlot picker
+2, 2, 1, 221930752, sync, City Build District Choice
+2, 2, 0, 2325950777, sync, City Build District Choice
+2, 10, 2, 1267827582, sync, Random Direction
+2, 9, 0, 880382175, sync, Random Direction
+2, 1, 0, 224448812, sync, GetNextBuyablePlot picker
+2, 7, 1, 637315061, sync, Random Direction
+2, 8, 2, 1144936842, sync, Random Direction
+2, 2, 1, 1485855739, sync, GetNextBuyablePlot picker
+2, 2, 0, 2426393624, sync, City Build District Choice
+2, 5, 3, 1765592689, sync, Random Direction
+2, 6, 5, 2989524054, sync, Random Direction
+2, 2, 0, 3615407319, sync, GetNextBuyablePlot picker
+2, 2, 1, 63576516, sync, City Build District Choice
+2, 2, 1, 3799965869, sync, City Build District Choice
+2, 2, 0, 3410530274, sync, City Build District Choice
+2, 2, 0, 1418219379, sync, City Build District Choice
+2, 8, 7, 741412400, sync, Random Direction
+2, 10, 8, 3965049513, sync, Random Direction
+2, 1, 0, 3504588846, sync, Barbarian camp region placement
+2, 1, 0, 3649990607, sync, Barbarian camp location
+2, 9, 3, 282123612, sync, Barb Tribe Roll
+2, 10, 1, 1569224805, sync, [BarbarianTribe_Instance] Tech Steal Cooldown
+2, 1, 0, 719862074, sync, GetNextBuyablePlot picker
+2, 5, 1, 53230059, sync, Random River
+3, 2500, 1177, 1245475656, sync, Random Event Roll
+3, 1, 0, 2022520289, sync, GetNextBuyablePlot picker
+3, 1, 0, 663793414, sync, GetNextBuyablePlot picker
+3, 1, 0, 3532818887, sync, GetNextBuyablePlot picker
+3, 4, 1, 1699314676, sync, Random Direction
+3, 7, 6, 1455836957, sync, Random Direction
+3, 1, 0, 3958945170, sync, GetNextBuyablePlot picker
+3, 8, 6, 3240360803, sync, Random Direction
+3, 8, 6, 3296486240, sync, Random Direction
+3, 1, 0, 3414016025, sync, GetNextBuyablePlot picker
+3, 6, 2, 3781728478, sync, Random Direction
+3, 7, 1, 1909516991, sync, Random Direction
+3, 1, 0, 741627276, sync, GetNextBuyablePlot picker
+3, 6, 4, 2057389269, sync, Random Direction
+3, 4, 0, 2875286762, sync, Random Direction
+3, 1, 0, 473134043, sync, GetNextBuyablePlot picker
+3, 6, 3, 3851894392, sync, Random Direction
+3, 9, 4, 2671663441, sync, Random Direction
+3, 1, 0, 1919477174, sync, GetNextBuyablePlot picker
+3, 6, 0, 2372629175, sync, Random Direction
+3, 8, 5, 608029220, sync, Random Direction
+3, 1, 0, 3183360397, sync, GetNextBuyablePlot picker
+3, 6, 2, 261465922, sync, Random Direction
+3, 7, 0, 1522172755, sync, Random Direction
+3, 2, 0, 446653584, sync, GetNextBuyablePlot picker
+3, 5, 1, 1038213513, sync, Random Direction
+3, 2, 1, 1692071310, sync, Random Direction
+3, 2, 1, 2715812271, sync, GetNextBuyablePlot picker
+3, 5, 3, 3913169340, sync, Random Direction
+3, 7, 6, 2826833221, sync, Random Direction
+3, 1, 0, 3994344602, sync, Barbarian camp region placement
+3, 1, 0, 1932855755, sync, Barbarian camp location
+3, 10, 0, 1418933672, sync, Barb Tribe Roll
+3, 10, 3, 83310785, sync, [BarbarianTribe_Instance] Tech Steal Cooldown
+3, 1, 0, 1456744550, sync, GetNextBuyablePlot picker
+3, 6, 5, 3246946215, sync, Selecting a random new quest
+3, 5, 2, 3988390996, sync, Choosing random class type for Recruit Great Person Class quest
+4, 2500, 1571, 2457706493, sync, Random Event Roll
+4, 1, 0, 2699715826, sync, GetNextBuyablePlot picker
+4, 1, 0, 1941628739, sync, GetNextBuyablePlot picker
+4, 2, 1, 433918400, sync, Random River
+4, 5, 0, 3641261817, sync, Random Mountain Range
+4, 1, 0, 666230334, sync, GetNextBuyablePlot picker
+4, 4, 0, 4095390879, sync, Random Direction
+4, 5, 4, 610372076, sync, Random Direction
+4, 1, 0, 3457536437, sync, GetNextBuyablePlot picker
+4, 6, 2, 2351800394, sync, Random Direction
+4, 8, 2, 1501559739, sync, Random Direction
+4, 1, 0, 1205033176, sync, GetNextBuyablePlot picker
+4, 7, 2, 2300498993, sync, Random Direction
+4, 8, 0, 1437431574, sync, Random Direction
+4, 1, 0, 103323799, sync, GetNextBuyablePlot picker
+4, 9, 6, 1502685828, sync, Random Direction
+4, 6, 4, 3285942893, sync, Random Direction
+4, 1, 0, 3548507810, sync, GetNextBuyablePlot picker
+4, 5, 2, 1481910067, sync, Random Direction
+4, 8, 1, 2218289904, sync, Random Direction
+4, 1, 0, 574281833, sync, GetNextBuyablePlot picker
+4, 7, 5, 2335462126, sync, Random Direction
+4, 7, 1, 3365929871, sync, Random Direction
+4, 1, 0, 1020347932, sync, GetNextBuyablePlot picker
+4, 3, 0, 4263481893, sync, Random Direction
+4, 10, 5, 1066840058, sync, Random Direction
+4, 2, 0, 2451786155, sync, GetNextBuyablePlot picker
+4, 5, 0, 1589291016, sync, Random Direction
+4, 5, 1, 853289889, sync, Random Direction
+4, 2, 1, 1552929222, sync, GetNextBuyablePlot picker
+4, 9, 0, 3226129799, sync, Random Direction
+4, 9, 1, 441859252, sync, Random Direction
+4, 2, 0, 611246301, sync, Barbarian camp region placement
+4, 2, 0, 1403470930, sync, Barbarian camp location
+4, 8, 1, 1047872291, sync, Barb Tribe Roll
+4, 10, 9, 578056224, sync, [BarbarianTribe_Instance] Tech Steal Cooldown
+4, 1, 0, 4269649369, sync, GetNextBuyablePlot picker
+4, 6, 1, 894522270, sync, Selecting a random new quest
+4, 4, 1, 1162800767, sync, Choosing random unit type for Train Unit quest

@@ -1,0 +1,555 @@
+[2023-02-16 00:41:01]	Enumerating device: NVIDIA GeForce RTX 3050 Laptop GPU
+[2023-02-16 00:41:01]	Enumerating device: Intel(R) UHD Graphics
+[2023-02-16 00:41:01]	Enumerating device: Microsoft Basic Render Driver
+[2023-02-16 00:41:01]	
+**3 supported devices found***
+[2023-02-16 00:41:01]	   Device 0 (DXGI index 0) ID: 9634:  NVIDIA GeForce RTX 3050 Laptop GPU
+[2023-02-16 00:41:01]	   Device 1 (DXGI index 1) ID: 39528:  Intel(R) UHD Graphics
+[2023-02-16 00:41:01]	   Device 2 (DXGI index 2) ID: 140:  Microsoft Basic Render Driver
+[2023-02-16 00:41:01]	Could not query driver version from vendor API, using DxDiag instead
+[2023-02-16 00:41:04]	Driver Version: 27.21.0014.6262
+[2023-02-16 00:41:04]	GetDriverInfo took 2841.60ms
+[2023-02-16 00:41:04]	Selected GPU device:
+    Device: NVIDIA GeForce RTX 3050 Laptop GPU
+    DeviceID: 25a2
+    SubsystemId: 153a1025
+    RevisionId: a1
+    Driver Version: 27.21.0014.6262
+    DedicatedVidMem: 4184866816
+    DedicatedSysMem: 0
+    SharedMem: 4170870784
+    Nodes: 1
+
+[2023-02-16 00:41:04]	Physical system memory size: 8.00GB
+[2023-02-16 00:41:04]	Logical processor count: 12
+[2023-02-16 00:41:04]	Physical processor count: 6
+[2023-02-16 00:41:04]	IsLaptopOrTablet: 1
+[2023-02-16 00:41:04]	Variable Rate Shading Tier: 2
+[2023-02-16 00:41:04]	TBB build.
+
+[2023-02-16 00:41:04]	Windows version is: 10.0.22621.1105 
+
+[2023-02-16 00:41:04]	Could not query driver version from vendor API, using DxDiag instead
+[2023-02-16 00:41:07]	Driver Version: 27.21.0014.6262
+[2023-02-16 00:41:07]	GetDriverInfo took 2697.95ms
+[2023-02-16 00:41:08]	AppHost::UpdateMonitorInfo(): Monitor information:
+	MONITORINFO.rcMonitor = (left: 0, top: 0, right: 1920, bottom: 1080)
+	MONITORINFO.rcWork = (left: 0, top: 0, right: 1920, bottom: 1020)
+	MONITORINFO.dwFlags = MONITORINFOF_PRIMARY
+[2023-02-16 00:41:08]	Supported UAV Load Formats:
+R32G32B32A32_FLOAT
+R32G32B32A32_UINT
+R32G32B32A32_SINT
+R16G16B16A16_FLOAT
+R16G16B16A16_UNORM
+R16G16B16A16_UINT
+R16G16B16A16_SNORM
+R16G16B16A16_SINT
+R32G32_FLOAT
+R32G32_UINT
+R32G32_SINT
+R10G10B10A2_UNORM
+R10G10B10A2_UINT
+R11G11B10_FLOAT
+R8G8B8A8_UNORM
+R8G8B8A8_UINT
+R8G8B8A8_SNORM
+R8G8B8A8_SINT
+R16G16_FLOAT
+R16G16_UNORM
+R16G16_UINT
+R16G16_SNORM
+R16G16_SINT
+R32_FLOAT
+R32_UINT
+R32_SINT
+R8G8_UNORM
+R8G8_UINT
+R8G8_SNORM
+R8G8_SINT
+R16_FLOAT
+R16_UNORM
+R16_UINT
+R16_SNORM
+R16_SINT
+R8_UNORM
+R8_UINT
+R8_SNORM
+R8_SINT
+A8_UNORM
+B8G8R8A8_UNORM
+[2023-02-16 00:41:08]	Supported UAV Store Formats:
+R32G32B32A32_FLOAT
+R32G32B32A32_UINT
+R32G32B32A32_SINT
+R16G16B16A16_FLOAT
+R16G16B16A16_UNORM
+R16G16B16A16_UINT
+R16G16B16A16_SNORM
+R16G16B16A16_SINT
+R32G32_FLOAT
+R32G32_UINT
+R32G32_SINT
+R10G10B10A2_UNORM
+R10G10B10A2_UINT
+R11G11B10_FLOAT
+R8G8B8A8_UNORM
+R8G8B8A8_UINT
+R8G8B8A8_SNORM
+R8G8B8A8_SINT
+R16G16_FLOAT
+R16G16_UNORM
+R16G16_UINT
+R16G16_SNORM
+R16G16_SINT
+R32_FLOAT
+R32_UINT
+R32_SINT
+R8G8_UNORM
+R8G8_UINT
+R8G8_SNORM
+R8G8_SINT
+R16_FLOAT
+R16_UNORM
+R16_UINT
+R16_SNORM
+R16_SINT
+R8_UNORM
+R8_UINT
+R8_SNORM
+R8_SINT
+A8_UNORM
+B8G8R8A8_UNORM
+[2023-02-16 00:41:08]	Supported RTV Formats:
+R32G32B32A32_FLOAT
+R32G32B32A32_UINT
+R32G32B32A32_SINT
+R16G16B16A16_FLOAT
+R16G16B16A16_UNORM
+R16G16B16A16_UINT
+R16G16B16A16_SNORM
+R16G16B16A16_SINT
+R32G32_FLOAT
+R32G32_UINT
+R32G32_SINT
+R10G10B10A2_UNORM
+R10G10B10A2_UINT
+R11G11B10_FLOAT
+R8G8B8A8_UNORM
+R8G8B8A8_UNORM_SRGB
+R8G8B8A8_UINT
+R8G8B8A8_SNORM
+R8G8B8A8_SINT
+R16G16_FLOAT
+R16G16_UNORM
+R16G16_UINT
+R16G16_SNORM
+R16G16_SINT
+R32_FLOAT
+R32_UINT
+R32_SINT
+R8G8_UNORM
+R8G8_UINT
+R8G8_SNORM
+R8G8_SINT
+R16_FLOAT
+R16_UNORM
+R16_UINT
+R16_SNORM
+R16_SINT
+R8_UNORM
+R8_UINT
+R8_SNORM
+R8_SINT
+A8_UNORM
+<unknown>
+<unknown>
+B8G8R8A8_UNORM
+<unknown>
+<unknown>
+<unknown>
+[2023-02-16 00:41:08]	Renderer::SetScreenMode(): Called with
+	Resolution = (1920 x 1080)
+	RefreshRate = (60 / 1)
+	ScreenMode = Windowed.
+[2023-02-16 00:41:08]	Using copy queue
+[2023-02-16 00:41:08]	Using compute queue
+[2023-02-16 00:41:09]	Renderer::SetScreenMode(): Called with
+	Resolution = (1920 x 1080)
+	RefreshRate = (60 / 1)
+	ScreenMode = Windowed.
+[2023-02-16 00:41:09]	Shader Package: 0.  Method: 0.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 0.  Method: 1.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 0.  Method: 2.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 0.  Method: 3.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 1.  Method: 0.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 1.  Method: 1.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 1.  Method: 2.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 1.  Method: 3.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 1.  Method: 4.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 1.  Method: 5.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 1.  Method: 6.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 1.  Method: 7.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 1.  Method: 8.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 1.  Method: 9.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 2.  Method: 0.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 2.  Method: 1.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 2.  Method: 2.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 2.  Method: 3.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 2.  Method: 4.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 2.  Method: 5.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 2.  Method: 6.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 2.  Method: 7.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 2.  Method: 8.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 2.  Method: 9.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 3.  Method: 0.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 3.  Method: 1.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 3.  Method: 2.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 3.  Method: 3.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 3.  Method: 4.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 3.  Method: 5.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 3.  Method: 6.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 3.  Method: 7.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 3.  Method: 8.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 3.  Method: 9.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 4.  Method: 0.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 4.  Method: 1.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 4.  Method: 2.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 4.  Method: 3.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 4.  Method: 4.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 4.  Method: 5.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 4.  Method: 6.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 4.  Method: 7.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 4.  Method: 8.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 4.  Method: 9.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 5.  Method: 0.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 5.  Method: 1.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 5.  Method: 2.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 5.  Method: 3.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 5.  Method: 4.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 5.  Method: 5.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 5.  Method: 6.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 5.  Method: 7.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 5.  Method: 8.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 5.  Method: 9.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 6.  Method: 0.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 6.  Method: 1.  20 PSOs
+[2023-02-16 00:41:09]	Shader Package: 6.  Method: 2.  20 PSOs
+[2023-02-16 00:41:09]	Shader Package: 6.  Method: 3.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 6.  Method: 4.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 7.  Method: 0.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 7.  Method: 1.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 7.  Method: 2.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 7.  Method: 3.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 7.  Method: 4.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 7.  Method: 5.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 7.  Method: 6.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 7.  Method: 7.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 7.  Method: 8.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 8.  Method: 0.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 9.  Method: 0.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 9.  Method: 1.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 9.  Method: 2.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 9.  Method: 3.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 9.  Method: 4.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 9.  Method: 5.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 9.  Method: 6.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 9.  Method: 7.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 9.  Method: 8.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 9.  Method: 9.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 9.  Method: 10.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 9.  Method: 11.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 9.  Method: 12.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 9.  Method: 13.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 9.  Method: 14.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 9.  Method: 15.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 9.  Method: 16.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 9.  Method: 17.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 9.  Method: 18.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 9.  Method: 19.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 10.  Method: 0.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 10.  Method: 1.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 10.  Method: 2.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 10.  Method: 3.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 11.  Method: 0.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 11.  Method: 1.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 11.  Method: 2.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 11.  Method: 3.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 11.  Method: 4.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 11.  Method: 5.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 12.  Method: 0.  40 PSOs
+[2023-02-16 00:41:09]	Shader Package: 12.  Method: 1.  40 PSOs
+[2023-02-16 00:41:09]	Shader Package: 12.  Method: 2.  40 PSOs
+[2023-02-16 00:41:09]	Shader Package: 12.  Method: 3.  40 PSOs
+[2023-02-16 00:41:09]	Shader Package: 12.  Method: 4.  40 PSOs
+[2023-02-16 00:41:09]	Shader Package: 12.  Method: 5.  40 PSOs
+[2023-02-16 00:41:09]	Shader Package: 12.  Method: 6.  40 PSOs
+[2023-02-16 00:41:09]	Shader Package: 12.  Method: 7.  40 PSOs
+[2023-02-16 00:41:09]	Shader Package: 12.  Method: 8.  40 PSOs
+[2023-02-16 00:41:09]	Shader Package: 12.  Method: 9.  40 PSOs
+[2023-02-16 00:41:09]	Shader Package: 12.  Method: 10.  40 PSOs
+[2023-02-16 00:41:09]	Shader Package: 12.  Method: 11.  40 PSOs
+[2023-02-16 00:41:09]	Shader Package: 12.  Method: 12.  40 PSOs
+[2023-02-16 00:41:09]	Shader Package: 12.  Method: 13.  40 PSOs
+[2023-02-16 00:41:09]	Shader Package: 12.  Method: 14.  20 PSOs
+[2023-02-16 00:41:09]	Shader Package: 12.  Method: 15.  40 PSOs
+[2023-02-16 00:41:09]	Shader Package: 12.  Method: 16.  40 PSOs
+[2023-02-16 00:41:09]	Shader Package: 12.  Method: 17.  40 PSOs
+[2023-02-16 00:41:09]	Shader Package: 12.  Method: 18.  40 PSOs
+[2023-02-16 00:41:09]	Shader Package: 12.  Method: 19.  40 PSOs
+[2023-02-16 00:41:09]	Shader Package: 13.  Method: 0.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 14.  Method: 0.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 15.  Method: 0.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 15.  Method: 1.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 16.  Method: 0.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 16.  Method: 1.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 17.  Method: 0.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 18.  Method: 0.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 19.  Method: 0.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 20.  Method: 0.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 20.  Method: 1.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 21.  Method: 0.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 22.  Method: 0.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 22.  Method: 1.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 22.  Method: 2.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 23.  Method: 0.  96 PSOs
+[2023-02-16 00:41:09]	Shader Package: 23.  Method: 1.  96 PSOs
+[2023-02-16 00:41:09]	Shader Package: 23.  Method: 2.  96 PSOs
+[2023-02-16 00:41:09]	Shader Package: 23.  Method: 3.  96 PSOs
+[2023-02-16 00:41:09]	Shader Package: 24.  Method: 0.  96 PSOs
+[2023-02-16 00:41:09]	Shader Package: 25.  Method: 0.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 25.  Method: 1.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 26.  Method: 0.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 26.  Method: 1.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 26.  Method: 2.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 26.  Method: 3.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 27.  Method: 0.  12 PSOs
+[2023-02-16 00:41:09]	Shader Package: 28.  Method: 0.  12 PSOs
+[2023-02-16 00:41:09]	Shader Package: 29.  Method: 0.  12 PSOs
+[2023-02-16 00:41:09]	Shader Package: 29.  Method: 1.  12 PSOs
+[2023-02-16 00:41:09]	Shader Package: 29.  Method: 2.  12 PSOs
+[2023-02-16 00:41:09]	Shader Package: 30.  Method: 0.  12 PSOs
+[2023-02-16 00:41:09]	Shader Package: 31.  Method: 0.  12 PSOs
+[2023-02-16 00:41:09]	Shader Package: 32.  Method: 0.  12 PSOs
+[2023-02-16 00:41:09]	Shader Package: 33.  Method: 0.  12 PSOs
+[2023-02-16 00:41:09]	Shader Package: 34.  Method: 0.  12 PSOs
+[2023-02-16 00:41:09]	Shader Package: 35.  Method: 0.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 36.  Method: 0.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 36.  Method: 1.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 37.  Method: 0.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 37.  Method: 1.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 37.  Method: 2.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 38.  Method: 0.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 38.  Method: 1.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 38.  Method: 2.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 39.  Method: 0.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 39.  Method: 1.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 39.  Method: 2.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 39.  Method: 3.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 40.  Method: 0.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 40.  Method: 1.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 40.  Method: 2.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 40.  Method: 3.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 40.  Method: 4.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 40.  Method: 5.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 40.  Method: 6.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 40.  Method: 7.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 40.  Method: 8.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 40.  Method: 9.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 41.  Method: 0.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 41.  Method: 1.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 42.  Method: 0.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 42.  Method: 1.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 42.  Method: 2.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 42.  Method: 3.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 42.  Method: 4.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 42.  Method: 5.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 42.  Method: 6.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 42.  Method: 7.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 43.  Method: 0.  24 PSOs
+[2023-02-16 00:41:09]	Shader Package: 43.  Method: 1.  24 PSOs
+[2023-02-16 00:41:09]	Shader Package: 43.  Method: 2.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 43.  Method: 3.  24 PSOs
+[2023-02-16 00:41:09]	Shader Package: 43.  Method: 4.  24 PSOs
+[2023-02-16 00:41:09]	Shader Package: 44.  Method: 0.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 44.  Method: 1.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 45.  Method: 0.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 45.  Method: 1.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 46.  Method: 0.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 46.  Method: 1.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 47.  Method: 0.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 47.  Method: 1.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 48.  Method: 0.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 48.  Method: 1.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 49.  Method: 0.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 49.  Method: 1.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 50.  Method: 0.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 50.  Method: 1.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 51.  Method: 0.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 51.  Method: 1.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 52.  Method: 0.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 52.  Method: 1.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 53.  Method: 0.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 53.  Method: 1.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 54.  Method: 0.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 54.  Method: 1.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 55.  Method: 0.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 55.  Method: 1.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 56.  Method: 0.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 56.  Method: 1.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 57.  Method: 0.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 57.  Method: 1.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 58.  Method: 0.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 58.  Method: 1.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 58.  Method: 2.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 58.  Method: 3.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 59.  Method: 0.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 59.  Method: 1.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 59.  Method: 2.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 59.  Method: 3.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 60.  Method: 0.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 60.  Method: 1.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 60.  Method: 2.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 60.  Method: 3.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 61.  Method: 0.  12 PSOs
+[2023-02-16 00:41:09]	Shader Package: 62.  Method: 0.  24 PSOs
+[2023-02-16 00:41:09]	Shader Package: 63.  Method: 0.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 63.  Method: 1.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 63.  Method: 2.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 63.  Method: 3.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 63.  Method: 4.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 63.  Method: 5.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 64.  Method: 0.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 64.  Method: 1.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 64.  Method: 2.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 64.  Method: 3.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 65.  Method: 0.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 65.  Method: 1.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 65.  Method: 2.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 65.  Method: 3.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 66.  Method: 0.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 67.  Method: 0.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 67.  Method: 1.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 67.  Method: 2.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 67.  Method: 3.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 67.  Method: 4.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 67.  Method: 5.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 67.  Method: 6.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 67.  Method: 7.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 67.  Method: 8.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 67.  Method: 9.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 67.  Method: 10.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 67.  Method: 11.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 67.  Method: 12.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 67.  Method: 13.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 67.  Method: 14.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 68.  Method: 0.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 68.  Method: 1.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 68.  Method: 2.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 68.  Method: 3.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 68.  Method: 4.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 68.  Method: 5.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 68.  Method: 6.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 68.  Method: 7.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 68.  Method: 8.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 68.  Method: 9.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 68.  Method: 10.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 68.  Method: 11.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 68.  Method: 12.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 68.  Method: 13.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 68.  Method: 14.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 68.  Method: 15.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 69.  Method: 0.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 70.  Method: 0.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 70.  Method: 1.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 70.  Method: 2.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 70.  Method: 3.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 70.  Method: 4.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 70.  Method: 5.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 70.  Method: 6.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 71.  Method: 0.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 71.  Method: 1.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 71.  Method: 2.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 71.  Method: 3.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 71.  Method: 4.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 71.  Method: 5.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 71.  Method: 6.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 72.  Method: 0.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 73.  Method: 0.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 73.  Method: 1.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 0.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 1.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 2.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 3.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 4.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 5.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 6.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 7.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 8.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 9.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 10.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 11.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 12.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 13.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 14.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 15.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 16.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 17.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 18.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 19.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 20.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 21.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 22.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 23.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 24.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 25.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 26.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 27.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 28.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 29.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 30.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 31.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 32.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 74.  Method: 33.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 75.  Method: 0.  12 PSOs
+[2023-02-16 00:41:09]	Shader Package: 75.  Method: 1.  12 PSOs
+[2023-02-16 00:41:09]	Shader Package: 76.  Method: 0.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 76.  Method: 1.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 76.  Method: 2.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 77.  Method: 0.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 77.  Method: 1.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 78.  Method: 0.  16 PSOs
+[2023-02-16 00:41:09]	Shader Package: 79.  Method: 0.  28 PSOs
+[2023-02-16 00:41:09]	Shader Package: 80.  Method: 0.  28 PSOs
+[2023-02-16 00:41:09]	Shader Package: 81.  Method: 0.  28 PSOs
+[2023-02-16 00:41:09]	Shader Package: 81.  Method: 1.  28 PSOs
+[2023-02-16 00:41:09]	Shader Package: 81.  Method: 2.  28 PSOs
+[2023-02-16 00:41:09]	Shader Package: 81.  Method: 3.  28 PSOs
+[2023-02-16 00:41:09]	Shader Package: 82.  Method: 0.  32 PSOs
+[2023-02-16 00:41:09]	Shader Package: 83.  Method: 0.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 84.  Method: 0.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 85.  Method: 0.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 85.  Method: 1.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 85.  Method: 2.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 86.  Method: 0.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 86.  Method: 1.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 86.  Method: 2.  8 PSOs
+[2023-02-16 00:41:09]	Shader Package: 86.  Method: 3.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 87.  Method: 0.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 87.  Method: 1.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 87.  Method: 2.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 87.  Method: 3.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 87.  Method: 4.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 87.  Method: 5.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 87.  Method: 6.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 87.  Method: 7.  4 PSOs
+[2023-02-16 00:41:09]	Shader Package: 87.  Method: 8.  4 PSOs
+[2023-02-16 00:41:09]	PSO creation took 0.464517 seconds
+[2023-02-16 00:41:25]	Growing UpdateSubresource invocations
+[2023-02-16 00:41:25]	Growing UpdateSubresource invocations
+[2023-02-16 00:41:25]	Growing UpdateSubresource invocations
+[2023-02-16 00:44:55]	Growing UpdateSubresource invocations
+[2023-02-16 00:49:40]	Growing transient pool.  Pool size needs tuning
+[2023-02-16 00:49:48]	Destroying SwapChain
+[2023-02-16 00:49:48]	ReleaseAdaptersAndDevices():  Adapter refcount is: 1
+[2023-02-16 00:49:48]	ReleaseAdaptersAndDevices():  Adapter refcount is: 1

@@ -1,0 +1,46 @@
+[2023-02-16 00:41:39]	GameListUpdate: GAMELISTUPDATE_CLEAR searchType(-1)
+[2023-02-16 00:41:41]	GameListUpdate: GAMELISTUPDATE_COMPLETE searchType(-1)
+[2023-02-16 00:44:48]	GameListUpdate: GAMELISTUPDATE_CLEAR searchType(-1)
+[2023-02-16 00:44:48]	GameListUpdate: Action(3) LobbyID(0) LobbyType(1) SearchType(-1)
+[2023-02-16 00:44:50]	GameListUpdate: GAMELISTUPDATE_COMPLETE searchType(-1)
+[2023-02-16 00:44:54]	Attempting to join multiplayer game at lobby serverID (0).
+[2023-02-16 00:44:54]	Attempting to join network session.
+[2023-02-16 00:44:54]	Network session join:  Attempting to join lobby associated with network session. ServerID: 0
+[2023-02-16 00:44:54]	Network session join:  Attempting to connect to network session.
+[2023-02-16 00:44:54]	Network session join:  joining secure session.
+[2023-02-16 00:44:54]	Network session join:  Adding pending connection to network session.
+[2023-02-16 00:44:54]	Pending Connection Started: playerID: -1, isHost: 1, szPublicAddress: , szPrivateAddress: 192.168.110.31:62056
+[2023-02-16 00:44:54]	Network session join:  Network session connection pending.
+[2023-02-16 00:44:54]	JoinRoomComplete: Success.  Lobby (0) Reason (1)
+[2023-02-16 00:44:54]	FireWire Link Created: 26504
+[2023-02-16 00:44:54]	Pending Connection Success: NetIntroduction, popping front pending connection.
+[2023-02-16 00:44:54]	Matchmaking Complete, join game successful!
+[2023-02-16 00:44:55]	Attempt to obtain a JoinCode but the current lobby does not support that feature.
+[2023-02-16 00:45:32]	Serialization Request. Type: 2, Location Type: 2, Device: 4, Options 00000000
+[2023-02-16 00:45:32]	Serialization Request. IO Stream loading
+[2023-02-16 00:45:33]	Serialization OpenFromSource. Location Type: 2, Device: 4, Options 00000000
+[2023-02-16 00:45:43]	Serialization UnserializeGameState. pkStream valid=true
+[2023-02-16 00:45:43]		,LoadHeader - Complete
+[2023-02-16 00:45:43]		,AttachToSession - Complete
+[2023-02-16 00:45:44]		,LoadGameCoreState - Complete
+[2023-02-16 00:45:44]		,LoadAudioState - Complete
+[2023-02-16 00:45:44]		,LoadUIState - Complete
+[2023-02-16 00:45:44]		,LoadRecorderState - Complete
+[2023-02-16 00:45:44]	Serialization UnserializeGameState, result=0
+[2023-02-16 00:46:25]	Serialization Request. Type: 1, Location Type: 2, Device: 1, Options 00000004
+[2023-02-16 00:46:25]	Serialization, writing Game State
+[2023-02-16 00:46:25]	Serialization, waiting for request of type SAVE, reason = 1
+[2023-02-16 00:46:25]	Serialization, waiting for request of type LOAD, reason = 0
+[2023-02-16 00:48:37]	Serialization Request. Type: 1, Location Type: 2, Device: 1, Options 00000004
+[2023-02-16 00:48:37]	Serialization, writing Game State
+[2023-02-16 00:48:37]	Serialization, waiting for request of type SAVE, reason = 1
+[2023-02-16 00:48:37]	Serialization, waiting for request of type LOAD, reason = 0
+[2023-02-16 00:49:19]	Serialization Request. Type: 1, Location Type: 2, Device: 1, Options 00000004
+[2023-02-16 00:49:19]	Serialization, writing Game State
+[2023-02-16 00:49:19]	Serialization, waiting for request of type SAVE, reason = 1
+[2023-02-16 00:49:19]	Serialization, waiting for request of type LOAD, reason = 0
+[2023-02-16 00:49:30]	Unable to close ENet connection for connection ID (26504) because it has no ENetPeer
+[2023-02-16 00:49:30]	FireWire Link Closed: 26504
+[2023-02-16 00:49:40]	JoinRoomComplete: Success.  Lobby (0) Reason (1)
+[2023-02-16 00:49:42]	~FPendingConnQueue Flushing Pending Connections.
+[2023-02-16 00:49:42]	Flushing Pending Connections.
